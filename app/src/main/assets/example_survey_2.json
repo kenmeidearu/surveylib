@@ -1,0 +1,121 @@
+{
+  "survey_properties": {
+    "intro_message": "None...It will be skipped!",
+    "end_message": "Thank you for having the time to take our survey.",
+    "skip_intro": true
+  },
+  "questions": [
+    {
+      "question_id": 3,
+      "question_type": "Radioboxes",
+      "question_title": "What is your age group ?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        {
+          "idChoice": 1,
+          "valueChoice": "less than 20"
+        },
+        {
+          "idChoice": 2,
+          "valueChoice": "20-30"
+        },
+        {
+          "idChoice": 3,
+          "valueChoice": "30-40"
+        },
+        {
+          "idChoice": 4,
+          "valueChoice": "40-50"
+        },
+        {
+          "idChoice": 5,
+          "valueChoice": "50+"
+        }
+      ]
+    },
+    {
+      "question_id": 4,
+      "question_type": "Radioboxes",
+      "question_title": "GENDER ?",
+      "description": "",
+      "required": true,
+      "random_choices": true,
+      "choices": [
+        {
+          "idChoice": 5,
+          "valueChoice": "Male"
+        },
+        {
+          "idChoice": 6,
+          "valueChoice": "Female"
+        }
+      ]
+    },
+    {
+      "question_id": 2,
+      "question_type": "Checkboxes",
+      "question_title": "With what technologies you work ?",
+      "description": "",
+      "required": false,
+      "random_choices": true,
+      "choices": [
+        {
+          "idChoice": 58,
+          "valueChoice": "Java"
+        },
+        {
+          "idChoice": 57,
+          "valueChoice": "C++"
+        },
+        {
+          "idChoice": 56,
+          "valueChoice": "PHP"
+        },
+        {
+          "idChoice": 55,
+          "valueChoice": "Javascript"
+        },
+        {
+          "idChoice": 54,
+          "valueChoice": "C#"
+        },
+        {
+          "idChoice": 53,
+          "valueChoice": "SQL"
+        },
+        {
+          "idChoice": 52,
+          "valueChoice": "Python"
+        },
+        {
+          "idChoice": 51,
+          "valueChoice": "Node.js"
+        }
+      ]
+    },
+    {
+      "question_id": 5,
+      "question_type": "String",
+      "question_title": "What is your desktop operating system ?",
+      "description": "",
+      "required": true
+    },
+    {
+      "question_id": 6,
+      "question_title": "How much are you paid ?",
+      "description": "[per year]",
+      "required": true,
+      "question_type": "Number"
+    },
+    {
+      "question_id": 31,
+      "question_type": "StringMultiline",
+      "question_title": "Why do you like your job as a developer ?",
+      "description": "",
+      "required": false,
+      "number_of_lines": 2
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "survey_properties": {
+    "intro_message": "<strong>Your feedback helps us to build a better mobile product.</strong>",
+    "end_message": "Thank you for having the time to take our survey.",
+    "skip_intro": false
+  },
+  "questions": [
+    {
+      "question_id": 3,
+      "question_type": "Radioboxes",
+      "question_title": "How appreciated did your supervisor make you feel?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        {
+          "idChoice": 581,
+          "valueChoice": "Very appreciated"
+        },
+        {
+          "idChoice": 582,
+          "valueChoice": "Moderately appreciated"
+        },
+        {
+          "idChoice": 583,
+          "valueChoice": "Not at all appreciated"
+        }
+      ]
+    },
+    {
+      "question_id": 31,
+      "question_type": "Radioboxes",
+      "question_title": "How easy was it to get along with the other colleagues at this organization?",
+      "description": "",
+      "required": true,
+      "random_choices": true,
+      "choices": [
+        {
+          "idChoice": 5811,
+          "valueChoice": "<font color='#880000'>Very hard</font>"
+        },
+        {
+          "idChoice": 5822,
+          "valueChoice": "<font color='#008800'>Very easy</font>"
+        },
+        {
+          "idChoice": 5832,
+          "valueChoice": "<font color='#000088'>So and so :)</font>"
+        }
+      ]
+    },
+    {
+      "question_id": 32,
+      "question_type": "String",
+      "question_title": "You have some suggestions for improvement ?",
+      "description": "",
+      "required": true
+    },
+    {
+      "question_id": 34,
+      "question_title": "How much you spend per coffee every day ?",
+      "description": "",
+      "required": false,
+      "question_type": "Number"
+    },
+    {
+      "question_id": 35,
+      "question_type": "StringMultiline",
+      "question_title": "Do you have any other comments you'd like us to know ?",
+      "description": "Requests, problems etc.",
+      "required": false,
+      "number_of_lines": 4
+    }
+  ]
+}
