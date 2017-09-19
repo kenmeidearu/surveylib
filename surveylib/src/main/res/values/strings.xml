@@ -4,4 +4,11 @@
     <string name="start">Start</string>
     <string name="close">Close</string>
     <string name="finish">Finish</string>
+
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FF4081</item>
+    </style>
+
+    <string name="error_field_required">This field is required</string>
 </resources>

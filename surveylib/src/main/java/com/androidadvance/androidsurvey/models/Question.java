@@ -1,11 +1,11 @@
 package com.androidadvance.androidsurvey.models;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
 
 
 public class Question implements Serializable {
@@ -31,6 +31,8 @@ public class Question implements Serializable {
     @SerializedName("choices")
     @Expose
    // private List<String> choices = new ArrayList<String>();//change to array  string and int
+    private transient List<Personal> personal = new ArrayList<>();
+
     private List<MultipleChoice> choices=new ArrayList<>();
     @SerializedName("min")
     @Expose
@@ -41,48 +43,6 @@ public class Question implements Serializable {
     @SerializedName("number_of_lines")
     @Expose
     private Integer numberOfLines;
-
-
-    public static class MultipleChoice{
-        String idChoice;
-        String valueChoice;
-        boolean selected;
-
-        public MultipleChoice(String idChoice, String valueChoice) {
-            this.idChoice = idChoice;
-            this.valueChoice = valueChoice;
-        }
-
-        public MultipleChoice(String idChoice, String valueChoice, boolean selected) {
-            this.idChoice = idChoice;
-            this.valueChoice = valueChoice;
-            this.selected = selected;
-        }
-
-        public String getIdChoice() {
-            return idChoice;
-        }
-
-        public void setIdChoice(String idChoice) {
-            this.idChoice = idChoice;
-        }
-
-        public String getValueChoice() {
-            return valueChoice;
-        }
-
-        public void setValueChoice(String valueChoice) {
-            this.valueChoice = valueChoice;
-        }
-
-        public boolean isSelected() {
-            return selected;
-        }
-
-        public void setSelected(boolean selected) {
-            this.selected = selected;
-        }
-    }
 
     /**
      *
@@ -268,6 +228,47 @@ public class Question implements Serializable {
      */
     public void setQuestionId(String questionId) {
         this.questionId = questionId;
+    }
+
+    public static class MultipleChoice {
+        String idChoice;
+        String valueChoice;
+        boolean selected;
+
+        public MultipleChoice(String idChoice, String valueChoice) {
+            this.idChoice = idChoice;
+            this.valueChoice = valueChoice;
+        }
+
+        public MultipleChoice(String idChoice, String valueChoice, boolean selected) {
+            this.idChoice = idChoice;
+            this.valueChoice = valueChoice;
+            this.selected = selected;
+        }
+
+        public String getIdChoice() {
+            return idChoice;
+        }
+
+        public void setIdChoice(String idChoice) {
+            this.idChoice = idChoice;
+        }
+
+        public String getValueChoice() {
+            return valueChoice;
+        }
+
+        public void setValueChoice(String valueChoice) {
+            this.valueChoice = valueChoice;
+        }
+
+        public boolean isSelected() {
+            return selected;
+        }
+
+        public void setSelected(boolean selected) {
+            this.selected = selected;
+        }
     }
 
 }

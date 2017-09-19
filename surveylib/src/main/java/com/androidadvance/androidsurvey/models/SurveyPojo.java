@@ -1,17 +1,21 @@
 package com.androidadvance.androidsurvey.models;
 
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
 
 public class SurveyPojo implements Serializable {
 
     @SerializedName("survey_properties")
     @Expose
     private SurveyProperties surveyProperties;
+    @SerializedName("personal_information")
+    @Expose
+    private SurveyPersonal surveyPersonal;
     @SerializedName("questions")
     @Expose
     private List<Question> questions = new ArrayList<Question>();
@@ -32,6 +36,14 @@ public class SurveyPojo implements Serializable {
      */
     public void setSurveyProperties(SurveyProperties surveyProperties) {
         this.surveyProperties = surveyProperties;
+    }
+
+    public SurveyPersonal getSurveyPersonal() {
+        return surveyPersonal;
+    }
+
+    public void setSurveyPersonal(SurveyPersonal surveyPersonal) {
+        this.surveyPersonal = surveyPersonal;
     }
 
     /**

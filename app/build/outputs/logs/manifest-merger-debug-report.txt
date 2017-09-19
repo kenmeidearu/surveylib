@@ -16,14 +16,16 @@ ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/Andr
 application
 ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:5:5-26:19
 MERGED from [surveylib:surveylib:unspecified] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/bundles/default/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/kenjinsan/.android/build-cache/ec8070e3cc0054af79bd6291ba8699cdada0ab35/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/kenjinsan/.android/build-cache/4c965d42eb6f93d213383ad2777617e8b082367e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/kenjinsan/.android/build-cache/310da6aea16755bc556d4a13c4997ac5a2bbebd1/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kenjinsan/.android/build-cache/e207b4065f249e458f8e75f9b186a97ab17090a6/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kenjinsan/.android/build-cache/7ead2fdaef89f623dabb59b1a299e259b16e515e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kenjinsan/.android/build-cache/8298ff7264fc715005561d314bbdd2d1cf106f02/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/kenjinsan/.android/build-cache/5a4f66291cb5285019fe561a6310a6c9f99c3924/output/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:9:9-41
@@ -62,17 +64,20 @@ ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/Andr
 uses-sdk
 INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [surveylib:surveylib:unspecified] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kenjinsan/.android/build-cache/02b236afee6c4f2fdfa2e4eb581611d53c3fe219/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/kenjinsan/.android/build-cache/ec8070e3cc0054af79bd6291ba8699cdada0ab35/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.1] /Users/kenjinsan/.android/build-cache/4c965d42eb6f93d213383ad2777617e8b082367e/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/kenjinsan/.android/build-cache/310da6aea16755bc556d4a13c4997ac5a2bbebd1/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kenjinsan/.android/build-cache/e207b4065f249e458f8e75f9b186a97ab17090a6/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kenjinsan/.android/build-cache/7ead2fdaef89f623dabb59b1a299e259b16e515e/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kenjinsan/.android/build-cache/8298ff7264fc715005561d314bbdd2d1cf106f02/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] /Users/kenjinsan/.android/build-cache/5a4f66291cb5285019fe561a6310a6c9f99c3924/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
@@ -80,16 +85,19 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/kenjinsan/.androi
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kenjinsan/.android/build-cache/02b236afee6c4f2fdfa2e4eb581611d53c3fe219/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/kenjinsan/.android/build-cache/ec8070e3cc0054af79bd6291ba8699cdada0ab35/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] /Users/kenjinsan/.android/build-cache/4c965d42eb6f93d213383ad2777617e8b082367e/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/kenjinsan/.android/build-cache/310da6aea16755bc556d4a13c4997ac5a2bbebd1/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kenjinsan/.android/build-cache/e207b4065f249e458f8e75f9b186a97ab17090a6/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kenjinsan/.android/build-cache/7ead2fdaef89f623dabb59b1a299e259b16e515e/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kenjinsan/.android/build-cache/8298ff7264fc715005561d314bbdd2d1cf106f02/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] /Users/kenjinsan/.android/build-cache/5a4f66291cb5285019fe561a6310a6c9f99c3924/output/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:26:9-47

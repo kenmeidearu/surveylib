@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
 import com.androidadvance.androidsurvey.adapters.AdapterFragmentQ;
 import com.androidadvance.androidsurvey.fragment.FragmentCheckboxes;
 import com.androidadvance.androidsurvey.fragment.FragmentEnd;
 import com.androidadvance.androidsurvey.fragment.FragmentMultiline;
 import com.androidadvance.androidsurvey.fragment.FragmentNumber;
+import com.androidadvance.androidsurvey.fragment.FragmentPersonal;
 import com.androidadvance.androidsurvey.fragment.FragmentRadioboxes;
 import com.androidadvance.androidsurvey.fragment.FragmentStart;
 import com.androidadvance.androidsurvey.fragment.FragmentTextSimple;
@@ -53,6 +53,16 @@ public class SurveyActivity extends AppCompatActivity {
             FragmentStart frag_start = new FragmentStart();
             Bundle sBundle = new Bundle();
             sBundle.putSerializable("survery_properties", mSurveyPojo.getSurveyProperties());
+            sBundle.putString("style", style_string);
+            frag_start.setArguments(sBundle);
+            arraylist_fragments.add(frag_start);
+        }
+
+        //- PERSONAL -
+        if (!mSurveyPojo.getSurveyPersonal().getSkipPersonal()) {
+            FragmentPersonal frag_start = new FragmentPersonal();
+            Bundle sBundle = new Bundle();
+            sBundle.putSerializable("survery_personal", mSurveyPojo.getSurveyPersonal());
             sBundle.putString("style", style_string);
             frag_start.setArguments(sBundle);
             arraylist_fragments.add(frag_start);

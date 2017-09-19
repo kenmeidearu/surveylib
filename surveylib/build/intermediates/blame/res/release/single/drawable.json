@@ -8,6 +8,10 @@
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/drawable/design_fab_background.xml"
+    },
+    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable/abc_text_cursor_material.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
@@ -88,6 +96,14 @@
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/design_password_eye.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable/abc_btn_check_material.xml"
     },
@@ -138,6 +154,10 @@
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/abc_edit_text_material.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",

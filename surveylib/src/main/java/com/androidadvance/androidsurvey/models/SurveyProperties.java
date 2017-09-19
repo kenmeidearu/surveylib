@@ -10,6 +10,9 @@ public class SurveyProperties implements Serializable {
     @SerializedName("title")
     @Expose
     private String title;
+    @SerializedName("survey_id")
+    @Expose
+    private String surveyId;
     @SerializedName("intro_message")
     @Expose
     private String introMessage;
@@ -76,4 +79,11 @@ public class SurveyProperties implements Serializable {
         this.skipIntro = skipIntro;
     }
 
+    public String getSurveyId() {
+        return surveyId;
+    }
+
+    public void setSurveyId(String surveyId) {
+        this.surveyId = surveyId;
+    }
 }

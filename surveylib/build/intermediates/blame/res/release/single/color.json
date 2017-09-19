@@ -28,8 +28,16 @@
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/color/design_tint_password_toggle.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/color/design_error.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/color/design_error.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",

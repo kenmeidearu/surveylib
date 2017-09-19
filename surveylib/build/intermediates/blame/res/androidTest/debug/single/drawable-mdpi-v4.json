@@ -80,6 +80,10 @@
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/design_ic_visibility.png",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/drawable-mdpi-v4/design_ic_visibility.png"
+    },
+    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -126,6 +130,10 @@
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/design_ic_visibility_off.png",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/drawable-mdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/abc_list_focused_holo.9.png",

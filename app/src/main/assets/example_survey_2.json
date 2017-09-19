@@ -1,8 +1,29 @@
 {
   "survey_properties": {
+    "survey_id": 2,
     "intro_message": "None...It will be skipped!",
     "end_message": "Thank you for having the time to take our survey.",
     "skip_intro": true
+  },
+  "personal_information": {
+    "skip_personal": false,
+    "value": [
+      {
+        "title": "First Name",
+        "required": false,
+        "type": "String"
+      },
+      {
+        "title": "Last Name",
+        "required": false,
+        "type": "String"
+      },
+      {
+        "title": "Age",
+        "required": false,
+        "type": "number"
+      }
+    ]
   },
   "questions": [
     {
