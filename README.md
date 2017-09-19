@@ -5,7 +5,7 @@ Android Survey
 
 Special thanks to https://github.com/howettl  & https://github.com/AndreiD for his Repository.
 
-this info still using origin repository from AndreiD, just change output of data 
+this info still using origin repository from AndreiD, add for personal info and change output of data 
 
 ## A simple to use, survey library for collecting feedback from your users.
 
@@ -22,7 +22,7 @@ compile 'com.androidadvance.surveylib:surveylib:0.0.1'
 
 ### How to use it:
 
-1. Take a look at the [example project](https://github.com/AndreiD/surveylib/blob/master/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java)
+1. Take a look at the [example project](https://github.com/kenmeidearu/surveylib/blob/master/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java)
 
 
 ##### Step 1:
@@ -48,7 +48,7 @@ Call the class **SurveyActivity** and pass as an extra the json string.
 
 
 
-What is loadSurveyJson ? check [this function.](https://github.com/AndreiD/surveylib/blob/master/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java#L77)
+What is loadSurveyJson ? check [this function.](https://github.com/kenmeidearu/surveylib/blob/master/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java#L77)
 
 
 ##### Step 3:
