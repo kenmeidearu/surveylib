@@ -3,7 +3,9 @@ Android Survey
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20Survey-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2780)
 
-Special thanks to https://github.com/howettl for his contribution.
+Special thanks to https://github.com/howettl  & https://github.com/AndreiD for his Repository.
+
+this info still using origin repository from AndreiD, just change output of data 
 
 ## A simple to use, survey library for collecting feedback from your users.
 
@@ -68,6 +70,10 @@ The activity is started with a request code.
             }
         }
     }
+~~~~
+example output: 
+~~~~
+[{"Answer":[{"idChoice":"2","selected":true,"valueChoice":"I use a \u003cfont color\u003d\u0027#00AA00\u0027\u003egreen product\u003c/font\u003e"}],"Ask":"Do you currently use one of these other software solutions?","idAsk":"3"},{"Answer":[{"idChoice":"0","selected":false,"valueChoice":"Busy"}],"Ask":"Why did you not subscribe at the end of your free trial ?","idAsk":"4"},{"Answer":[{"idChoice":"3","selected":false,"valueChoice":"30-40"}],"Ask":"What is your age group ?","idAsk":"2"},{"Answer":[{"idChoice":"1","selected":true,"valueChoice":"thing #1"},{"idChoice":"2","selected":true,"valueChoice":"thing #2"}],"Ask":"What were you hoping the XYZ mobile app would do?","idAsk":"1"},{"Answer":[{"idChoice":"1","selected":true,"valueChoice":"thing #1"},{"idChoice":"2","selected":true,"valueChoice":"thing #2"}],"Ask":"What were you hoping the XYZ mobile app would do?","idAsk":"1"},{"Answer":[{"idChoice":"3","selected":false,"valueChoice":"30-40"}],"Ask":"What is your age group ?","idAsk":"2"},{"Answer":[{"idChoice":"0","selected":false,"valueChoice":"12"}],"Ask":"If this app was paid, how much you would give to have it ?","idAsk":"5"},{"Answer":[{"idChoice":"0","selected":false,"valueChoice":"1"}],"Ask":"berapa istri yang sudah kamu miliki ?","idAsk":"6"},{"Answer":[{"idChoice":"0","selected":false,"valueChoice":"very well"}],"Ask":"We love feedback and if there is anything else you’d like us to improve please let us know.","idAsk":"7"}]
 ~~~~
 
 ##### Last step:
