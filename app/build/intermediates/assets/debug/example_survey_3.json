@@ -1,29 +1,28 @@
 {
   "survey_properties": {
-    "survey_id":3,
+    "survey_id": 3,
     "intro_message": "<strong>Your feedback helps us to build a better mobile product.</strong>",
     "end_message": "Thank you for having the time to take our survey.",
     "skip_intro": false
   },
-  "personal_information":{
-    "skip_personal":true,
+  "personal_information": {
+    "skip_personal": true,
     "value": [
       {
-        "title":"First Name",
+        "title": "First Name",
         "required": false,
         "type": "String"
       },
       {
-        "title":"Last Name",
+        "title": "Last Name",
         "required": false,
         "type": "String"
       },
       {
-        "title":"Age",
+        "title": "Age",
         "required": false,
         "type": "number"
       }
-
     ]
   },
   "questions": [

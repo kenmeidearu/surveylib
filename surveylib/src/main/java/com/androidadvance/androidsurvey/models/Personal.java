@@ -10,16 +10,17 @@ import java.io.Serializable;
  */
 
 public class Personal implements Serializable {
-    @SerializedName("title")
+    @SerializedName("Title")
     @Expose
     private String title;
-    @SerializedName("required")
+    @SerializedName("Required")
     @Expose
     private Boolean required;
-    @SerializedName("type")
+    @SerializedName("Type")
     @Expose
     private String type;
-
+    @SerializedName("Value")
+    @Expose
     private String value;
 
     public Personal(String title, String value) {

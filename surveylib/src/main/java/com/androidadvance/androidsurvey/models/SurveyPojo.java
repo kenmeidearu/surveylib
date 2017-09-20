@@ -10,13 +10,13 @@ import java.util.List;
 
 public class SurveyPojo implements Serializable {
 
-    @SerializedName("survey_properties")
+    @SerializedName("SurveyProperties")
     @Expose
     private SurveyProperties surveyProperties;
-    @SerializedName("personal_information")
+    @SerializedName("PersonalInformation")
     @Expose
     private SurveyPersonal surveyPersonal;
-    @SerializedName("questions")
+    @SerializedName("Questions")
     @Expose
     private List<Question> questions = new ArrayList<Question>();
 

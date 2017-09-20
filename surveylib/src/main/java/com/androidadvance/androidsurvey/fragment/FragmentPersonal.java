@@ -106,7 +106,7 @@ public class FragmentPersonal extends Fragment {
                         newTi.setInputType(InputType.TYPE_CLASS_NUMBER);
                     } else if (personal.getType().equalsIgnoreCase("decimal")) {
                         newTi.setInputType(InputType.TYPE_NUMBER_FLAG_DECIMAL);
-                    } else if (personal.getType().equalsIgnoreCase("multiline")) {
+                    } else if (personal.getType().equalsIgnoreCase("StringMultiline")) {
                         newTi.setInputType(InputType.TYPE_TEXT_FLAG_MULTI_LINE | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
                         newTi.setMaxLines(5);
                         newTi.setMinLines(3);

@@ -7,19 +7,19 @@ import java.io.Serializable;
 
 public class SurveyProperties implements Serializable {
 
-    @SerializedName("title")
+    @SerializedName("Title")
     @Expose
     private String title;
-    @SerializedName("survey_id")
+    @SerializedName("SurveyId")
     @Expose
     private String surveyId;
-    @SerializedName("intro_message")
+    @SerializedName("IntroMessage")
     @Expose
     private String introMessage;
-    @SerializedName("end_message")
+    @SerializedName("EndMessage")
     @Expose
     private String endMessage;
-    @SerializedName("skip_intro")
+    @SerializedName("SkipIntro")
     @Expose
     private Boolean skipIntro;
 

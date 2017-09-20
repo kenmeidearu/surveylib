@@ -10,37 +10,38 @@ import java.util.List;
 
 public class Question implements Serializable {
 
-    @SerializedName("question_type")
+    @SerializedName("QuestionType")
     @Expose
     private String questionType;
-    @SerializedName("question_id")
+    @SerializedName("QuestionId")
     @Expose
     private String questionId;
-    @SerializedName("question_title")
+    @SerializedName("QuestionTitle")
     @Expose
     private String questionTitle;
-    @SerializedName("description")
+    @SerializedName("Description")
     @Expose
     private String description;
-    @SerializedName("required")
+    @SerializedName("Required")
     @Expose
     private Boolean required;
-    @SerializedName("random_choices")
+    @SerializedName("RandomChoices")
     @Expose
     private Boolean randomChoices;
-    @SerializedName("choices")
+    @SerializedName("Personal")
     @Expose
    // private List<String> choices = new ArrayList<String>();//change to array  string and int
     private transient List<Personal> personal = new ArrayList<>();
-
+    @SerializedName("Choices")
+    @Expose
     private List<MultipleChoice> choices=new ArrayList<>();
-    @SerializedName("min")
+    @SerializedName("Min")
     @Expose
     private Integer min;
-    @SerializedName("max")
+    @SerializedName("Max")
     @Expose
     private Integer max;
-    @SerializedName("number_of_lines")
+    @SerializedName("NumberOfLines")
     @Expose
     private Integer numberOfLines;
 

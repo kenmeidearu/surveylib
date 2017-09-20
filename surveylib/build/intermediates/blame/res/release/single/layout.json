@@ -36,28 +36,28 @@
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
         "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/fragment_text_simple.xml",
-        "source": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/src/main/res/layout/fragment_text_simple.xml"
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/footer.xml",
         "source": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/src/main/res/layout/footer.xml"
     },
     {
-        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/abc_search_view.xml",
-        "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_search_view.xml"
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/fragment_text_simple.xml",
+        "source": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/src/main/res/layout/fragment_text_simple.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",

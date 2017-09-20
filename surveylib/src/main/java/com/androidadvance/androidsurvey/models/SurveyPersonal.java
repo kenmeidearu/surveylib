@@ -13,13 +13,13 @@ import java.util.ArrayList;
 
 public class SurveyPersonal implements Serializable {
 
-    @SerializedName("value")
+    @SerializedName("Value")
     @Expose
     private ArrayList<Personal> personal;
-    @SerializedName("RecId")
+    @SerializedName("PersonalId")
     @Expose
     private String personalId;
-    @SerializedName("skip_personal")
+    @SerializedName("SkipPersonal")
     @Expose
     private Boolean skipPersonal;
 

@@ -37,7 +37,7 @@ public class SurveyActivity extends AppCompatActivity {
 
         if (getIntent().getExtras() != null) {
             Bundle bundle = getIntent().getExtras();
-            mSurveyPojo = new Gson().fromJson(bundle.getString("json_survey"), SurveyPojo.class);
+            mSurveyPojo = new Gson().fromJson(bundle.getString("JsonSurvey"), SurveyPojo.class);
             if (bundle.containsKey("style")) {
                 style_string = bundle.getString("style");
             }
@@ -52,7 +52,7 @@ public class SurveyActivity extends AppCompatActivity {
         if (!mSurveyPojo.getSurveyProperties().getSkipIntro()) {
             FragmentStart frag_start = new FragmentStart();
             Bundle sBundle = new Bundle();
-            sBundle.putSerializable("survery_properties", mSurveyPojo.getSurveyProperties());
+            sBundle.putSerializable("SurveryProperties", mSurveyPojo.getSurveyProperties());
             sBundle.putString("style", style_string);
             frag_start.setArguments(sBundle);
             arraylist_fragments.add(frag_start);
@@ -62,7 +62,7 @@ public class SurveyActivity extends AppCompatActivity {
         if (!mSurveyPojo.getSurveyPersonal().getSkipPersonal()) {
             FragmentPersonal frag_start = new FragmentPersonal();
             Bundle sBundle = new Bundle();
-            sBundle.putSerializable("survery_personal", mSurveyPojo.getSurveyPersonal());
+            sBundle.putSerializable("SurveryPersonal", mSurveyPojo.getSurveyPersonal());
             sBundle.putString("style", style_string);
             frag_start.setArguments(sBundle);
             arraylist_fragments.add(frag_start);
@@ -121,7 +121,7 @@ public class SurveyActivity extends AppCompatActivity {
         //- END -
         FragmentEnd frag_end = new FragmentEnd();
         Bundle eBundle = new Bundle();
-        eBundle.putSerializable("survery_properties", mSurveyPojo.getSurveyProperties());
+        eBundle.putSerializable("SurveryProperties", mSurveyPojo.getSurveyProperties());
         eBundle.putString("style", style_string);
         frag_end.setArguments(eBundle);
         arraylist_fragments.add(frag_end);

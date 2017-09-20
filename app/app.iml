@@ -119,6 +119,5 @@
     <orderEntry type="library" exported="" name="support-fragment-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="animated-vector-drawable-25.3.1" level="project" />
     <orderEntry type="module" module-name="surveylib-surveylib" exported="" />
-    <orderEntry type="library" exported="" name="gson-2.7" level="project" />
   </component>
 </module>
