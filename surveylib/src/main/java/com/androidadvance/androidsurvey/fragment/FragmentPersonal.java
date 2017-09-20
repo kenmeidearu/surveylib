@@ -70,16 +70,18 @@ public class FragmentPersonal extends Fragment {
         if (cancel) {
             focusView.requestFocus();
         } else {
-            ArrayList<Personal> value = new ArrayList<>();
-            for (int i = 0; i < allTI.size(); i++) {
-                String ask, answer = "";
-                ask = asks.get(i);
-                if (!TextUtils.isEmpty(allTI.get(i).getEditableText())) {
-                    answer = allTI.get(i).getEditableText().toString();
+            if (q_data != null) {
+                ArrayList<Personal> value = new ArrayList<>();
+                for (int i = 0; i < allTI.size(); i++) {
+                    String ask, answer = "";
+                    ask = asks.get(i);
+                    if (!TextUtils.isEmpty(allTI.get(i).getEditableText())) {
+                        answer = allTI.get(i).getEditableText().toString();
+                    }
+                    value.add(new Personal(ask, answer));
                 }
-                value.add(new Personal(ask, answer));
+                Answers.getInstance().put_answer(q_data.getPersonalId(), value);
             }
-            Answers.getInstance().put_answer(q_data.getPersonalId(), value);
             ((SurveyActivity) mContext).go_to_next();
         }
     }
@@ -90,7 +92,7 @@ public class FragmentPersonal extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         mContext = getActivity();
-        q_data = (SurveyPersonal) getArguments().getSerializable("survery_personal");
+        q_data = (SurveyPersonal) getArguments().getSerializable("SurveryPersonal");
         if (q_data != null) {
             if (q_data.getPersonal() != null && q_data.getPersonal().size() > 0) {
                 for (Personal personal : q_data.getPersonal()) {
@@ -102,17 +104,19 @@ public class FragmentPersonal extends Fragment {
                     final TextInputEditText newTi = new TextInputEditText(mContext);
                     newTi.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
                     newTi.setHint(personal.getTitle());
-                    if (personal.getType().equalsIgnoreCase("number")) {
-                        newTi.setInputType(InputType.TYPE_CLASS_NUMBER);
-                    } else if (personal.getType().equalsIgnoreCase("decimal")) {
-                        newTi.setInputType(InputType.TYPE_NUMBER_FLAG_DECIMAL);
-                    } else if (personal.getType().equalsIgnoreCase("StringMultiline")) {
-                        newTi.setInputType(InputType.TYPE_TEXT_FLAG_MULTI_LINE | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
-                        newTi.setMaxLines(5);
-                        newTi.setMinLines(3);
-                    } else {
-                        newTi.setInputType(InputType.TYPE_TEXT_FLAG_CAP_WORDS | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
-                        newTi.setMaxLines(1);
+                    if (personal.getType() != null) {
+                        if (personal.getType().equalsIgnoreCase("number")) {
+                            newTi.setInputType(InputType.TYPE_CLASS_NUMBER);
+                        } else if (personal.getType().equalsIgnoreCase("decimal")) {
+                            newTi.setInputType(InputType.TYPE_NUMBER_FLAG_DECIMAL);
+                        } else if (personal.getType().equalsIgnoreCase("StringMultiline")) {
+                            newTi.setInputType(InputType.TYPE_TEXT_FLAG_MULTI_LINE | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
+                            newTi.setMaxLines(5);
+                            newTi.setMinLines(3);
+                        } else {
+                            newTi.setInputType(InputType.TYPE_TEXT_FLAG_CAP_WORDS | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
+                            newTi.setMaxLines(1);
+                        }
                     }
                     newTiL.addView(newTi);
                     allTI.add(newTi);

@@ -20,54 +20,43 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_surveylib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_surveylib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_surveylib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_surveylib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/androidadvance/com/androidsurveyexample/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/androidadvance/com/androidsurveyexample/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/androidadvance/com/androidsurveyexample/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/androidadvance/com/androidsurveyexample/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/androidadvance/com/androidsurveyexample/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/androidadvance/com/androidsurveyexample/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/androidadvance/com/androidsurveyexample/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/androidadvance/com/androidsurveyexample/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/androidadvance/com/androidsurveyexample/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/androidadvance/com/androidsurveyexample/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/androidadvance/com/androidsurveyexample/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/androidadvance/com/androidsurveyexample/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/SurveyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/SurveyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentStart.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/fragment/FragmentStart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/models/Question.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/models/SurveyPojo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/models/SurveyPojo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/models/SurveyProperties.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/androidadvance/androidsurvey/models/SurveyProperties.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/SurveyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/SurveyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentStart.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/fragment/FragmentStart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/models/Question.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/models/SurveyPojo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/models/SurveyPojo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/models/SurveyProperties.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--469621797/com/androidadvance/androidsurvey/models/SurveyProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/androidadvance/com/androidsurveyexample/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/androidadvance/com/androidsurveyexample/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/androidadvance/com/androidsurveyexample/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/androidadvance/com/androidsurveyexample/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/androidadvance/com/androidsurveyexample/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/androidadvance/com/androidsurveyexample/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/SurveyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/SurveyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentStart.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/fragment/FragmentStart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/models/Question.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/models/SurveyPojo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/models/SurveyPojo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/models/SurveyProperties.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/androidadvance/androidsurvey/models/SurveyProperties.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/androidadvance/androidsurvey/models/Question.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/androidadvance/androidsurvey/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/androidadvance/androidsurvey/models/SurveyPojo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/androidadvance/androidsurvey/models/SurveyPojo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/androidadvance/androidsurvey/models/SurveyProperties.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/androidadvance/androidsurvey/models/SurveyProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/androidadvance/com/androidsurveyexample/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/androidadvance/com/androidsurveyexample/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/androidadvance/com/androidsurveyexample/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/androidadvance/com/androidsurveyexample/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/androidadvance/com/androidsurveyexample/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/androidadvance/com/androidsurveyexample/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/androidadvance/androidsurvey/SurveyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/androidadvance/androidsurvey/SurveyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentStart.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/androidadvance/androidsurvey/fragment/FragmentStart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/bundles/default/classes.jar" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/bundles/default/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/SurveyActivity.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/SurveyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentEnd.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentStart.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/fragment/FragmentStart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/models/Question$MultipleChoice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/models/Question.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/models/Question.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/models/SurveyPojo.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/models/SurveyPojo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/models/SurveyProperties.class" afterPath="$PROJECT_DIR$/surveylib/build/intermediates/classes/release/com/androidadvance/androidsurvey/models/SurveyProperties.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/build/outputs/aar/surveylib-release.aar" afterPath="$PROJECT_DIR$/surveylib/build/outputs/aar/surveylib-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/example_survey_1.json" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/example_survey_1.json" />
@@ -76,14 +65,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/example_survey_2.json" afterPath="$PROJECT_DIR$/app/src/main/assets/example_survey_2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/example_survey_3.json" afterPath="$PROJECT_DIR$/app/src/main/assets/example_survey_3.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentEnd.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentEnd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentStart.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentStart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/example_survey_1.json" afterPath="$PROJECT_DIR$/app/src/main/assets/example_survey_1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java" />
     </list>
     <ignored path="surveylib-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,61 +103,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FragmentStart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="48" column="105" selection-start-line="48" selection-start-column="105" selection-end-line="48" selection-end-column="105" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example_survey_1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example_survey_3.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_3.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example_survey_2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentTextSimple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentTextSimple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FragmentRadioboxes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1282">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="77">
+              <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -198,6 +135,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="example_survey_1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_survey_2.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1545">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FragmentEnd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentEnd.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -208,12 +165,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentCheckboxes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FragmentPersonal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Personal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentCheckboxes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentCheckboxes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="124" column="67" selection-start-line="121" selection-start-column="5" selection-end-line="124" selection-end-column="67" />
+            <state relative-caret-position="92">
+              <caret line="105" column="62" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="233" column="24" selection-start-line="233" selection-start-column="24" selection-end-line="233" selection-end-column="24" />
+              <folding>
+                <element signature="e#5126#5127#0" expanded="true" />
+                <element signature="e#5168#5169#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2941,9 +2934,7 @@
       <list>
         <option value="$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_text_simple.xml" />
         <option value="$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_text_multiline.xml" />
-        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_checkboxes.xml" />
-        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentCheckboxes.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/adapters/AdapterFragmentQ.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentMultiline.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentNumber.java" />
@@ -2958,18 +2949,20 @@
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/Answers.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_personal.xml" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java" />
-        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyPersonal.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyPojo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/example_survey_1.json" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyProperties.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/SurveyActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java" />
-        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentStart.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/example_survey_3.json" />
         <option value="$PROJECT_DIR$/app/src/main/assets/example_survey_2.json" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentEnd.java" />
+        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java" />
+        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java" />
+        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.java" />
+        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentCheckboxes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/example_survey_1.json" />
       </list>
     </option>
   </component>
@@ -3690,7 +3683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505896194787</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update json&#10;">
+      <created>1505896899481</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1505896899481</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3985,14 +3985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyPersonal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -4001,14 +3993,6 @@
             <element signature="e#581#582#0" expanded="true" />
             <element signature="e#614#615#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2385">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4044,14 +4028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/Answers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-577">
@@ -4071,14 +4047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_3.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -4087,26 +4055,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentTextSimple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-697">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1282">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -4137,10 +4089,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="233" column="24" selection-start-line="233" selection-start-column="24" selection-end-line="233" selection-end-column="24" />
+          <folding>
+            <element signature="e#5126#5127#0" expanded="true" />
+            <element signature="e#5168#5169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentCheckboxes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="124" column="67" selection-start-line="121" selection-start-column="5" selection-end-line="124" selection-end-column="67" />
+        <state relative-caret-position="92">
+          <caret line="105" column="62" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1545">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
         </state>
       </provider>

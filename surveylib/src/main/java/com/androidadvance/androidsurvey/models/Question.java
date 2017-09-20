@@ -231,44 +231,44 @@ public class Question implements Serializable {
         this.questionId = questionId;
     }
 
-    public static class MultipleChoice {
-        String idChoice;
-        String valueChoice;
-        boolean selected;
+    public static class MultipleChoice implements Serializable {
+        String IdChoice;
+        String ValueChoice;
+        boolean Selected;
 
         public MultipleChoice(String idChoice, String valueChoice) {
-            this.idChoice = idChoice;
-            this.valueChoice = valueChoice;
+            this.IdChoice = idChoice;
+            this.ValueChoice = valueChoice;
         }
 
         public MultipleChoice(String idChoice, String valueChoice, boolean selected) {
-            this.idChoice = idChoice;
-            this.valueChoice = valueChoice;
-            this.selected = selected;
+            this.IdChoice = idChoice;
+            this.ValueChoice = valueChoice;
+            this.Selected = selected;
         }
 
         public String getIdChoice() {
-            return idChoice;
+            return IdChoice;
         }
 
         public void setIdChoice(String idChoice) {
-            this.idChoice = idChoice;
+            this.IdChoice = idChoice;
         }
 
         public String getValueChoice() {
-            return valueChoice;
+            return ValueChoice;
         }
 
         public void setValueChoice(String valueChoice) {
-            this.valueChoice = valueChoice;
+            this.ValueChoice = valueChoice;
         }
 
         public boolean isSelected() {
-            return selected;
+            return Selected;
         }
 
         public void setSelected(boolean selected) {
-            this.selected = selected;
+            this.Selected = selected;
         }
     }
 

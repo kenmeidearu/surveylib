@@ -21,7 +21,7 @@
       {
         "Title": "Age",
         "Required": false,
-        "Rype": "number"
+        "Type": "number"
       }
     ]
   },
@@ -77,7 +77,7 @@
         },
         {
           "IdChoice": 4,
-          "valueChoice": "40-50"
+          "ValueChoice": "40-50"
         },
         {
           "IdChoice": 5,
@@ -118,10 +118,10 @@
       "Description": "",
       "Required": true,
       "RandomChoices": false,
-      "choices": [
+      "Choices": [
         {
           "IdChoice": 1,
-          "valueChoice": "less than 20"
+          "ValueChoice": "less than 20"
         },
         {
           "IdChoice": 2,

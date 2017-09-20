@@ -35,62 +35,62 @@
       "RandomChoices": false,
       "Choices": [
         {
-          "idChoice": 581,
-          "valueChoice": "Very appreciated"
+          "IdChoice": 581,
+          "ValueChoice": "Very appreciated"
         },
         {
-          "idChoice": 582,
-          "valueChoice": "Moderately appreciated"
+          "IdChoice": 582,
+          "ValueChoice": "Moderately appreciated"
         },
         {
-          "idChoice": 583,
-          "valueChoice": "Not at all appreciated"
+          "IdChoice": 583,
+          "ValueChoice": "Not at all appreciated"
         }
       ]
     },
     {
       "QuestionId": 31,
-      "question_type": "Radioboxes",
-      "question_title": "How easy was it to get along with the other colleagues at this organization?",
-      "description": "",
-      "required": true,
-      "random_choices": true,
-      "choices": [
+      "QuestionType": "Radioboxes",
+      "QuestionTitle": "How easy was it to get along with the other colleagues at this organization?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": true,
+      "Choices": [
         {
-          "idChoice": 5811,
-          "valueChoice": "<font color='#880000'>Very hard</font>"
+          "IdChoice": 5811,
+          "ValueChoice": "<font color='#880000'>Very hard</font>"
         },
         {
-          "idChoice": 5822,
-          "valueChoice": "<font color='#008800'>Very easy</font>"
+          "IdChoice": 5822,
+          "ValueChoice": "<font color='#008800'>Very easy</font>"
         },
         {
-          "idChoice": 5832,
-          "valueChoice": "<font color='#000088'>So and so :)</font>"
+          "IdChoice": 5832,
+          "ValueChoice": "<font color='#000088'>So and so :)</font>"
         }
       ]
     },
     {
       "QuestionId": 32,
-      "question_type": "String",
-      "question_title": "You have some suggestions for improvement ?",
-      "description": "",
-      "required": true
+      "QuestionType": "String",
+      "QuestionTitle": "You have some suggestions for improvement ?",
+      "Description": "",
+      "Required": true
     },
     {
       "QuestionId": 34,
-      "question_title": "How much you spend per coffee every day ?",
-      "description": "",
-      "required": false,
-      "question_type": "Number"
+      "QuestionTitle": "How much you spend per coffee every day ?",
+      "Description": "",
+      "Required": false,
+      "QuestionType": "Number"
     },
     {
       "QuestionId": 35,
-      "question_type": "StringMultiline",
-      "question_title": "Do you have any other comments you'd like us to know ?",
-      "description": "Requests, problems etc.",
-      "required": false,
-      "number_of_lines": 4
+      "QuestionType": "StringMultiline",
+      "QuestionTitle": "Do you have any other comments you'd like us to know ?",
+      "Description": "Requests, problems etc.",
+      "Required": false,
+      "NumberOfLines": 4
     }
   ]
 }

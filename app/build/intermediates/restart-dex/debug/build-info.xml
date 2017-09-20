@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1505896494929"
+    timestamp="1505897914838"
     token="-5098923787143194980"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -76,18 +76,28 @@
             location="/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1505897135598"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1505897839720"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1505896494929"
+        timestamp="1505897914838"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/outputs/apk/app-debug.apk"
