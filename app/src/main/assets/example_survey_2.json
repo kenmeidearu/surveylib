@@ -1,142 +1,142 @@
 {
-  "survey_properties": {
-    "survey_id": 2,
-    "intro_message": "None...It will be skipped!",
-    "end_message": "Thank you for having the time to take our survey.",
-    "skip_intro": true
+  "SurveyProperties": {
+    "SurveyId": 2,
+    "IntroMessage": "None...It will be skipped!",
+    "EndMessage": "Thank you for having the time to take our survey.",
+    "SkipIntro": true
   },
-  "personal_information": {
-    "skip_personal": false,
-    "value": [
+  "PersonalInformation": {
+    "SkipPersonal": false,
+    "Value": [
       {
-        "title": "First Name",
-        "required": false,
-        "type": "String"
+        "Title": "First Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Last Name",
-        "required": false,
-        "type": "String"
+        "Title": "Last Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Age",
-        "required": false,
-        "type": "number"
+        "Title": "Age",
+        "Required": false,
+        "Type": "number"
       }
     ]
   },
-  "questions": [
+  "Questions": [
     {
-      "question_id": 3,
-      "question_type": "Radioboxes",
-      "question_title": "What is your age group ?",
-      "description": "",
-      "required": true,
-      "random_choices": false,
-      "choices": [
+      "QuestionId": 3,
+      "QuestionType": "Radioboxes",
+      "QuestionTitle": "What is your age group ?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": false,
+      "Choices": [
         {
-          "idChoice": 1,
-          "valueChoice": "less than 20"
+          "IdChoice": 1,
+          "ValueChoice": "less than 20"
         },
         {
-          "idChoice": 2,
-          "valueChoice": "20-30"
+          "IdChoice": 2,
+          "ValueChoice": "20-30"
         },
         {
-          "idChoice": 3,
-          "valueChoice": "30-40"
+          "IdChoice": 3,
+          "ValueChoice": "30-40"
         },
         {
-          "idChoice": 4,
-          "valueChoice": "40-50"
+          "IdChoice": 4,
+          "ValueChoice": "40-50"
         },
         {
-          "idChoice": 5,
-          "valueChoice": "50+"
+          "IdChoice": 5,
+          "ValueChoice": "50+"
         }
       ]
     },
     {
-      "question_id": 4,
-      "question_type": "Radioboxes",
-      "question_title": "GENDER ?",
-      "description": "",
-      "required": true,
-      "random_choices": true,
-      "choices": [
+      "QuestionId": 4,
+      "QuestionType": "Radioboxes",
+      "QuestionTitle": "GENDER ?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": true,
+      "Choices": [
         {
-          "idChoice": 5,
-          "valueChoice": "Male"
+          "IdChoice": 5,
+          "ValueChoice": "Male"
         },
         {
-          "idChoice": 6,
-          "valueChoice": "Female"
+          "IdChoice": 6,
+          "ValueChoice": "Female"
         }
       ]
     },
     {
-      "question_id": 2,
-      "question_type": "Checkboxes",
-      "question_title": "With what technologies you work ?",
-      "description": "",
-      "required": false,
-      "random_choices": true,
-      "choices": [
+      "QuestionId": 2,
+      "QuestionType": "Checkboxes",
+      "QuestionTitle": "With what technologies you work ?",
+      "Description": "",
+      "Required": false,
+      "RandomChoices": true,
+      "Choices": [
         {
-          "idChoice": 58,
-          "valueChoice": "Java"
+          "IdChoice": 58,
+          "ValueChoice": "Java"
         },
         {
-          "idChoice": 57,
-          "valueChoice": "C++"
+          "IdChoice": 57,
+          "ValueChoice": "C++"
         },
         {
-          "idChoice": 56,
-          "valueChoice": "PHP"
+          "IdChoice": 56,
+          "ValueChoice": "PHP"
         },
         {
-          "idChoice": 55,
-          "valueChoice": "Javascript"
+          "IdChoice": 55,
+          "ValueChoice": "Javascript"
         },
         {
-          "idChoice": 54,
-          "valueChoice": "C#"
+          "IdChoice": 54,
+          "ValueChoice": "C#"
         },
         {
-          "idChoice": 53,
-          "valueChoice": "SQL"
+          "IdChoice": 53,
+          "ValueChoice": "SQL"
         },
         {
-          "idChoice": 52,
-          "valueChoice": "Python"
+          "IdChoice": 52,
+          "ValueChoice": "Python"
         },
         {
-          "idChoice": 51,
-          "valueChoice": "Node.js"
+          "IdChoice": 51,
+          "ValueChoice": "Node.js"
         }
       ]
     },
     {
-      "question_id": 5,
-      "question_type": "String",
-      "question_title": "What is your desktop operating system ?",
-      "description": "",
-      "required": true
+      "QuestionId": 5,
+      "QuestionType": "String",
+      "QuestionTitle": "What is your desktop operating system ?",
+      "Description": "",
+      "Required": true
     },
     {
-      "question_id": 6,
-      "question_title": "How much are you paid ?",
-      "description": "[per year]",
-      "required": true,
-      "question_type": "Number"
+      "QuestionId": 6,
+      "QuestionTitle": "How much are you paid ?",
+      "Description": "[per year]",
+      "Required": true,
+      "QuestionType": "Number"
     },
     {
-      "question_id": 31,
-      "question_type": "StringMultiline",
-      "question_title": "Why do you like your job as a developer ?",
-      "description": "",
-      "required": false,
-      "number_of_lines": 2
+      "QuestionId": 31,
+      "QuestionType": "StringMultiline",
+      "QuestionTitle": "Why do you like your job as a developer ?",
+      "Description": "",
+      "Required": false,
+      "NumberOfLines": 2
     }
   ]
 }

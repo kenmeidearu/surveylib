@@ -1,96 +1,96 @@
 {
-  "survey_properties": {
-    "survey_id": 3,
-    "intro_message": "<strong>Your feedback helps us to build a better mobile product.</strong>",
-    "end_message": "Thank you for having the time to take our survey.",
-    "skip_intro": false
+  "SurveyProperties": {
+    "SurveyId": 3,
+    "IntroMessage": "<strong>Your feedback helps us to build a better mobile product.</strong>",
+    "EndMessage": "Thank you for having the time to take our survey.",
+    "SkipIntro": false
   },
-  "personal_information": {
-    "skip_personal": true,
-    "value": [
+  "PersonalInformation": {
+    "SkipPersonal": true,
+    "Value": [
       {
-        "title": "First Name",
-        "required": false,
-        "type": "String"
+        "Title": "First Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Last Name",
-        "required": false,
-        "type": "String"
+        "Title": "Last Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Age",
-        "required": false,
-        "type": "number"
+        "Title": "Age",
+        "Required": false,
+        "Type": "number"
       }
     ]
   },
-  "questions": [
+  "Questions": [
     {
-      "question_id": 3,
-      "question_type": "Radioboxes",
-      "question_title": "How appreciated did your supervisor make you feel?",
-      "description": "",
-      "required": true,
-      "random_choices": false,
-      "choices": [
+      "QuestionId": 3,
+      "QuestionType": "Radioboxes",
+      "QuestionTitle": "How appreciated did your supervisor make you feel?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": false,
+      "Choices": [
         {
-          "idChoice": 581,
-          "valueChoice": "Very appreciated"
+          "IdChoice": 581,
+          "ValueChoice": "Very appreciated"
         },
         {
-          "idChoice": 582,
-          "valueChoice": "Moderately appreciated"
+          "IdChoice": 582,
+          "ValueChoice": "Moderately appreciated"
         },
         {
-          "idChoice": 583,
-          "valueChoice": "Not at all appreciated"
+          "IdChoice": 583,
+          "ValueChoice": "Not at all appreciated"
         }
       ]
     },
     {
-      "question_id": 31,
-      "question_type": "Radioboxes",
-      "question_title": "How easy was it to get along with the other colleagues at this organization?",
-      "description": "",
-      "required": true,
-      "random_choices": true,
-      "choices": [
+      "QuestionId": 31,
+      "QuestionType": "Radioboxes",
+      "QuestionTitle": "How easy was it to get along with the other colleagues at this organization?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": true,
+      "Choices": [
         {
-          "idChoice": 5811,
-          "valueChoice": "<font color='#880000'>Very hard</font>"
+          "IdChoice": 5811,
+          "ValueChoice": "<font color='#880000'>Very hard</font>"
         },
         {
-          "idChoice": 5822,
-          "valueChoice": "<font color='#008800'>Very easy</font>"
+          "IdChoice": 5822,
+          "ValueChoice": "<font color='#008800'>Very easy</font>"
         },
         {
-          "idChoice": 5832,
-          "valueChoice": "<font color='#000088'>So and so :)</font>"
+          "IdChoice": 5832,
+          "ValueChoice": "<font color='#000088'>So and so :)</font>"
         }
       ]
     },
     {
-      "question_id": 32,
-      "question_type": "String",
-      "question_title": "You have some suggestions for improvement ?",
-      "description": "",
-      "required": true
+      "QuestionId": 32,
+      "QuestionType": "String",
+      "QuestionTitle": "You have some suggestions for improvement ?",
+      "Description": "",
+      "Required": true
     },
     {
-      "question_id": 34,
-      "question_title": "How much you spend per coffee every day ?",
-      "description": "",
-      "required": false,
-      "question_type": "Number"
+      "QuestionId": 34,
+      "QuestionTitle": "How much you spend per coffee every day ?",
+      "Description": "",
+      "Required": false,
+      "QuestionType": "Number"
     },
     {
-      "question_id": 35,
-      "question_type": "StringMultiline",
-      "question_title": "Do you have any other comments you'd like us to know ?",
-      "description": "Requests, problems etc.",
-      "required": false,
-      "number_of_lines": 4
+      "QuestionId": 35,
+      "QuestionType": "StringMultiline",
+      "QuestionTitle": "Do you have any other comments you'd like us to know ?",
+      "Description": "Requests, problems etc.",
+      "Required": false,
+      "NumberOfLines": 4
     }
   ]
 }

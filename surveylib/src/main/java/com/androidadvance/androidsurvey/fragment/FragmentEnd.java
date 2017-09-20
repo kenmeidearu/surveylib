@@ -51,7 +51,7 @@ public class FragmentEnd extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         mContext = getActivity();
-        SurveyProperties survery_properties = (SurveyProperties) getArguments().getSerializable("survery_properties");
+        SurveyProperties survery_properties = (SurveyProperties) getArguments().getSerializable("SurveryProperties");
 
         assert survery_properties != null;
         textView_end.setText(Html.fromHtml(survery_properties.getEndMessage()));

@@ -1,167 +1,167 @@
 {
-  "survey_properties": {
-    "survey_id": 1,
-    "intro_message": "<strong>Your feedback helps us to build a better mobile product.</strong><br><br><br>   Hello, Feedback from our clients, friends and family is how we make key decisions on what the future holds for XYZ App.<br><br>By combining data and previous feedback we have introduced many new features e.g. x, y, z.<br><br>It will take less than 2 minutes to answer the feedback quiz.",
-    "end_message": "Thank you for having the time to take our survey.",
-    "skip_intro": false
+  "SurveyProperties": {
+    "SurveyId": 1,
+    "IntroMessage": "<strong>Your feedback helps us to build a better mobile product.</strong><br><br><br>   Hello, Feedback from our clients, friends and family is how we make key decisions on what the future holds for XYZ App.<br><br>By combining data and previous feedback we have introduced many new features e.g. x, y, z.<br><br>It will take less than 2 minutes to answer the feedback quiz.",
+    "EndMessage": "Thank you for having the time to take our survey.",
+    "SkipIntro": false
   },
-  "personal_information": {
-    "skip_personal": false,
-    "value": [
+  "PersonalInformation": {
+    "SkipPersonal": false,
+    "Value": [
       {
-        "title": "First Name",
-        "required": false,
-        "type": "String"
+        "Title": "First Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Last Name",
-        "required": true,
-        "type": "String"
+        "Title": "Last Name",
+        "Required": true,
+        "Type": "String"
       },
       {
-        "title": "Age",
-        "required": false,
-        "type": "number"
+        "Title": "Age",
+        "Required": false,
+        "Rype": "number"
       }
     ]
   },
-  "questions": [
+  "Questions": [
     {
-      "question_type": "Checkboxes",
-      "question_id": 3,
-      "question_title": "Do you currently use one of these other software solutions?",
-      "description": "",
-      "required": false,
-      "random_choices": true,
-      "choices": [
+      "QuestionType": "Checkboxes",
+      "QuestionId": 3,
+      "QuestionTitle": "Do you currently use one of these other software solutions?",
+      "Description": "",
+      "Required": false,
+      "RandomChoices": true,
+      "Choices": [
         {
-          "idChoice": 1,
-          "valueChoice": "<font color='#AA0000'>Yes, I use a <strong>red</strong> product</font>"
+          "IdChoice": 1,
+          "ValueChoice": "<font color='#AA0000'>Yes, I use a <strong>red</strong> product</font>"
         },
         {
-          "idChoice": 2,
-          "valueChoice": "I use a <font color='#00AA00'>green product</font>"
+          "IdChoice": 2,
+          "ValueChoice": "I use a <font color='#00AA00'>green product</font>"
         },
         {
-          "idChoice": 3,
-          "valueChoice": "I partialy use a <font color='#0000AA'><strong>blue</strong></font> product"
+          "IdChoice": 3,
+          "ValueChoice": "I partialy use a <font color='#0000AA'><strong>blue</strong></font> product"
         }
       ]
     },
     {
-      "question_type": "String",
-      "question_id": 4,
-      "question_title": "Why did you not subscribe at the end of your free trial ?",
-      "description": "",
-      "required": false
+      "QuestionType": "String",
+      "QuestionId": 4,
+      "QuestionTitle": "Why did you not subscribe at the end of your free trial ?",
+      "Description": "",
+      "Required": false
     },
     {
-      "question_type": "Radioboxes",
-      "question_id": 2,
-      "question_title": "What is your age group ?",
-      "description": "",
-      "required": true,
-      "random_choices": false,
-      "choices": [
+      "QuestionType": "Radioboxes",
+      "QuestionId": 2,
+      "QuestionTitle": "What is your age group ?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": false,
+      "Choices": [
         {
-          "idChoice": 1,
-          "valueChoice": "less than 20"
+          "IdChoice": 1,
+          "ValueChoice": "less than 20"
         },
         {
-          "idChoice": 2,
-          "valueChoice": "20-30"
+          "IdChoice": 2,
+          "ValueChoice": "20-30"
         },
         {
-          "idChoice": 3,
-          "valueChoice": "30-40"
+          "IdChoice": 3,
+          "ValueChoice": "30-40"
         },
         {
-          "idChoice": 4,
+          "IdChoice": 4,
           "valueChoice": "40-50"
         },
         {
-          "idChoice": 5,
-          "valueChoice": "50+"
+          "IdChoice": 5,
+          "ValueChoice": "50+"
         }
       ]
     },
     {
-      "question_type": "Checkboxes",
-      "question_id": 1,
-      "question_title": "What were you hoping the XYZ mobile app would do?",
-      "description": "(Select all that apply)",
-      "required": false,
-      "random_choices": false,
-      "choices": [
+      "QuestionType": "Checkboxes",
+      "QuestionId": 1,
+      "QuestionTitle": "What were you hoping the XYZ mobile app would do?",
+      "Description": "(Select all that apply)",
+      "Required": false,
+      "RandomChoices": false,
+      "Choices": [
         {
-          "idChoice": 1,
-          "valueChoice": "thing #1"
+          "IdChoice": 1,
+          "ValueChoice": "thing #1"
         },
         {
-          "idChoice": 2,
-          "valueChoice": "thing #2"
+          "IdChoice": 2,
+          "ValueChoice": "thing #2"
         },
         {
-          "idChoice": 3,
-          "valueChoice": "thing #3"
+          "IdChoice": 3,
+          "ValueChoice": "thing #3"
         },
         {
-          "idChoice": 4,
-          "valueChoice": "thing #4"
+          "IdChoice": 4,
+          "ValueChoice": "thing #4"
         }
       ]
     },
     {
-      "question_type": "Radioboxes",
-      "question_id": 2,
-      "question_title": "What is your age group ?",
-      "description": "",
-      "required": true,
-      "random_choices": false,
+      "QuestionType": "Radioboxes",
+      "QuestionId": 2,
+      "QuestionTitle": "What is your age group ?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": false,
       "choices": [
         {
-          "idChoice": 1,
+          "IdChoice": 1,
           "valueChoice": "less than 20"
         },
         {
-          "idChoice": 2,
-          "valueChoice": "20-30"
+          "IdChoice": 2,
+          "ValueChoice": "20-30"
         },
         {
-          "idChoice": 3,
-          "valueChoice": "30-40"
+          "IdChoice": 3,
+          "ValueChoice": "30-40"
         },
         {
-          "idChoice": 4,
-          "valueChoice": "40-50"
+          "IdChoice": 4,
+          "ValueChoice": "40-50"
         },
         {
-          "idChoice": 5,
-          "valueChoice": "50+"
+          "IdChoice": 5,
+          "ValueChoice": "50+"
         }
       ]
     },
     {
-      "question_title": "If this app was paid, how much you would give to have it ?",
-      "question_id": 5,
-      "description": "",
-      "required": false,
-      "question_type": "Number"
+      "QuestionTitle": "If this app was paid, how much you would give to have it ?",
+      "QuestionId": 5,
+      "Description": "",
+      "Required": false,
+      "QuestionType": "Number"
     },
     {
-      "question_id": 6,
-      "question_title": "berapa istri yang sudah kamu miliki ?",
-      "description": "jelaskan dengan detail ",
-      "required": true,
-      "question_type": "Number"
+      "QuestionId": 6,
+      "QuestionTitle": "berapa istri yang sudah kamu miliki ?",
+      "Description": "jelaskan dengan detail ",
+      "Required": true,
+      "QuestionType": "Number"
     },
     {
-      "question_id": 7,
-      "question_type": "StringMultiline",
-      "question_title": "We love feedback and if there is anything else you’d like us to improve please let us know.",
-      "description": "",
-      "required": false,
-      "number_of_lines": 4
+      "QuestionId": 7,
+      "QuestionType": "StringMultiline",
+      "QuestionTitle": "We love feedback and if there is anything else you’d like us to improve please let us know.",
+      "Description": "",
+      "Required": false,
+      "NumberOfLines": 4
     }
   ]
 }

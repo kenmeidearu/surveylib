@@ -1,39 +1,39 @@
 {
-  "survey_properties": {
-    "survey_id": 2,
-    "intro_message": "None...It will be skipped!",
-    "end_message": "Thank you for having the time to take our survey.",
-    "skip_intro": true
+  "SurveyProperties": {
+    "SurveyId": 2,
+    "IntroMessage": "None...It will be skipped!",
+    "EndMessage": "Thank you for having the time to take our survey.",
+    "SkipIntro": true
   },
-  "personal_information": {
-    "skip_personal": false,
-    "value": [
+  "PersonalInformation": {
+    "SkipPersonal": false,
+    "Value": [
       {
-        "title": "First Name",
-        "required": false,
-        "type": "String"
+        "Title": "First Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Last Name",
-        "required": false,
-        "type": "String"
+        "Title": "Last Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Age",
-        "required": false,
-        "type": "number"
+        "Title": "Age",
+        "Required": false,
+        "Type": "number"
       }
     ]
   },
-  "questions": [
+  "Questions": [
     {
-      "question_id": 3,
-      "question_type": "Radioboxes",
-      "question_title": "What is your age group ?",
-      "description": "",
-      "required": true,
-      "random_choices": false,
-      "choices": [
+      "QuestionId": 3,
+      "QuestionType": "Radioboxes",
+      "QuestionTitle": "What is your age group ?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": false,
+      "Choices": [
         {
           "idChoice": 1,
           "valueChoice": "less than 20"

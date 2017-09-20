@@ -1,39 +1,39 @@
 {
-  "survey_properties": {
-    "survey_id": 3,
-    "intro_message": "<strong>Your feedback helps us to build a better mobile product.</strong>",
-    "end_message": "Thank you for having the time to take our survey.",
-    "skip_intro": false
+  "SurveyProperties": {
+    "SurveyId": 3,
+    "IntroMessage": "<strong>Your feedback helps us to build a better mobile product.</strong>",
+    "EndMessage": "Thank you for having the time to take our survey.",
+    "SkipIntro": false
   },
-  "personal_information": {
-    "skip_personal": true,
-    "value": [
+  "PersonalInformation": {
+    "SkipPersonal": true,
+    "Value": [
       {
-        "title": "First Name",
-        "required": false,
-        "type": "String"
+        "Title": "First Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Last Name",
-        "required": false,
-        "type": "String"
+        "Title": "Last Name",
+        "Required": false,
+        "Type": "String"
       },
       {
-        "title": "Age",
-        "required": false,
-        "type": "number"
+        "Title": "Age",
+        "Required": false,
+        "Type": "number"
       }
     ]
   },
-  "questions": [
+  "Questions": [
     {
-      "question_id": 3,
-      "question_type": "Radioboxes",
-      "question_title": "How appreciated did your supervisor make you feel?",
-      "description": "",
-      "required": true,
-      "random_choices": false,
-      "choices": [
+      "QuestionId": 3,
+      "QuestionType": "Radioboxes",
+      "QuestionTitle": "How appreciated did your supervisor make you feel?",
+      "Description": "",
+      "Required": true,
+      "RandomChoices": false,
+      "Choices": [
         {
           "idChoice": 581,
           "valueChoice": "Very appreciated"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "question_id": 31,
+      "QuestionId": 31,
       "question_type": "Radioboxes",
       "question_title": "How easy was it to get along with the other colleagues at this organization?",
       "description": "",
@@ -71,21 +71,21 @@
       ]
     },
     {
-      "question_id": 32,
+      "QuestionId": 32,
       "question_type": "String",
       "question_title": "You have some suggestions for improvement ?",
       "description": "",
       "required": true
     },
     {
-      "question_id": 34,
+      "QuestionId": 34,
       "question_title": "How much you spend per coffee every day ?",
       "description": "",
       "required": false,
       "question_type": "Number"
     },
     {
-      "question_id": 35,
+      "QuestionId": 35,
       "question_type": "StringMultiline",
       "question_title": "Do you have any other comments you'd like us to know ?",
       "description": "Requests, problems etc.",
