@@ -1,12 +1,13 @@
 package com.androidadvance.androidsurvey.models;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by kenjinsan on 9/27/17.
  */
 
-public class Survey {
+public class Survey implements Serializable {
     int SurveyId;
     String SurveyName;
     String SurveyDesc;

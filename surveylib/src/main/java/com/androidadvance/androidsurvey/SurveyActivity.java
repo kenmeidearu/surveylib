@@ -25,6 +25,9 @@ import java.util.ArrayList;
 
 public class SurveyActivity extends AppCompatActivity {
 
+    public final static String SESSIONSURVEY = "SESSIONSURVEY";
+    public final static String SESSIONJSONSURVEY = "JsonSurvey";
+    public final static String STYLE = "style";
     private SurveyPojo mSurveyPojo;
     private Survey mSurvey = null;
     private ViewPager mPager;
@@ -39,12 +42,12 @@ public class SurveyActivity extends AppCompatActivity {
 
         if (getIntent().getExtras() != null) {
             Bundle bundle = getIntent().getExtras();
-            mSurveyPojo = new Gson().fromJson(bundle.getString("JsonSurvey"), SurveyPojo.class);
-            if (bundle.containsKey("style")) {
-                style_string = bundle.getString("style");
+            mSurveyPojo = new Gson().fromJson(bundle.getString(SESSIONJSONSURVEY), SurveyPojo.class);
+            if (bundle.containsKey(STYLE)) {
+                style_string = bundle.getString(STYLE);
             }
-            if (bundle.getSerializable("mSurvey") != null) {
-                mSurvey = (Survey) bundle.getSerializable("mSurvey");
+            if (bundle.getSerializable(SESSIONSURVEY) != null) {
+                mSurvey = (Survey) bundle.getSerializable(SESSIONSURVEY);
             }
         }
 
