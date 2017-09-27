@@ -1,5 +1,6 @@
 package com.androidadvance.androidsurvey.models;
 
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -10,12 +11,12 @@ import java.util.List;
 
 public class Question implements Serializable {
 
-    @SerializedName("QuestionType")
-    @Expose
-    private String questionType;
     @SerializedName("QuestionId")
     @Expose
     private String questionId;
+    @SerializedName("QuestionType")
+    @Expose
+    private String questionType;
     @SerializedName("QuestionTitle")
     @Expose
     private String questionTitle;
@@ -28,13 +29,6 @@ public class Question implements Serializable {
     @SerializedName("RandomChoices")
     @Expose
     private Boolean randomChoices;
-    @SerializedName("Personal")
-    @Expose
-   // private List<String> choices = new ArrayList<String>();//change to array  string and int
-    private transient List<Personal> personal = new ArrayList<>();
-    @SerializedName("Choices")
-    @Expose
-    private List<MultipleChoice> choices=new ArrayList<>();
     @SerializedName("Min")
     @Expose
     private Integer min;
@@ -44,6 +38,15 @@ public class Question implements Serializable {
     @SerializedName("NumberOfLines")
     @Expose
     private Integer numberOfLines;
+    @SerializedName("Personal")
+    @Expose
+    // private List<String> choices = new ArrayList<String>();//change to array  string and int
+    private transient List<Personal> personal = new ArrayList<>();
+    @SerializedName("Choices")
+    @Expose
+    private List<MultipleChoice> choices = new ArrayList<>();
+
+
 
     /**
      *

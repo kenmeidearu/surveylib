@@ -7,12 +7,12 @@ import java.io.Serializable;
 
 public class SurveyProperties implements Serializable {
 
-    @SerializedName("Title")
-    @Expose
-    private String title;
     @SerializedName("SurveyId")
     @Expose
     private String surveyId;
+    @SerializedName("Title")
+    @Expose
+    private String title;
     @SerializedName("IntroMessage")
     @Expose
     private String introMessage;

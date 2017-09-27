@@ -44,10 +44,6 @@
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
-        "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_popup_menu_item_layout.xml"
     },
@@ -152,12 +148,12 @@
         "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/layout/design_bottom_navigation_item.xml"
     },
     {
-        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
         "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/fragment_radioboxes.xml",

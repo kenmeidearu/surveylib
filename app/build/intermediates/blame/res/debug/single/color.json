@@ -28,16 +28,16 @@
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/res/color/design_tint_password_toggle.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",

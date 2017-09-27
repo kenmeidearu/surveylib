@@ -17,6 +17,7 @@ import com.androidadvance.androidsurvey.fragment.FragmentRadioboxes;
 import com.androidadvance.androidsurvey.fragment.FragmentStart;
 import com.androidadvance.androidsurvey.fragment.FragmentTextSimple;
 import com.androidadvance.androidsurvey.models.Question;
+import com.androidadvance.androidsurvey.models.Survey;
 import com.androidadvance.androidsurvey.models.SurveyPojo;
 import com.google.gson.Gson;
 
@@ -25,6 +26,7 @@ import java.util.ArrayList;
 public class SurveyActivity extends AppCompatActivity {
 
     private SurveyPojo mSurveyPojo;
+    private Survey mSurvey = null;
     private ViewPager mPager;
     private String style_string = null;
 
@@ -41,90 +43,172 @@ public class SurveyActivity extends AppCompatActivity {
             if (bundle.containsKey("style")) {
                 style_string = bundle.getString("style");
             }
+            if (bundle.getSerializable("mSurvey") != null) {
+                mSurvey = (Survey) bundle.getSerializable("mSurvey");
+            }
         }
 
-
-       // Log.e("json Object = ", String.valueOf(mSurveyPojo.getQuestions()));
+        // Log.e("json Object = ", String.valueOf(mSurveyPojo.getQuestions()));
 
         final ArrayList<Fragment> arraylist_fragments = new ArrayList<>();
 
-        //- START -
-        if (!mSurveyPojo.getSurveyProperties().getSkipIntro()) {
-            FragmentStart frag_start = new FragmentStart();
-            Bundle sBundle = new Bundle();
-            sBundle.putSerializable("SurveryProperties", mSurveyPojo.getSurveyProperties());
-            sBundle.putString("style", style_string);
-            frag_start.setArguments(sBundle);
-            arraylist_fragments.add(frag_start);
+        if (mSurvey != null) {
+            //- START -
+            if (!mSurvey.getSurveyProperties().getSkipIntro()) {
+                FragmentStart frag_start = new FragmentStart();
+                Bundle sBundle = new Bundle();
+                sBundle.putSerializable("SurveryProperties", mSurvey.getSurveyProperties());
+                sBundle.putString("style", style_string);
+                frag_start.setArguments(sBundle);
+                arraylist_fragments.add(frag_start);
+            }
+
+            //- PERSONAL -
+            if (!mSurvey.getPersonalInformation().getSkipPersonal()) {
+                FragmentPersonal frag_start = new FragmentPersonal();
+                Bundle sBundle = new Bundle();
+                sBundle.putSerializable("SurveryPersonal", mSurvey.getPersonalInformation());
+                sBundle.putString("style", style_string);
+                frag_start.setArguments(sBundle);
+                arraylist_fragments.add(frag_start);
+            }
+
+            //- FILL -
+            for (Question mQuestion : mSurvey.getQuestions()) {
+
+                if (mQuestion.getQuestionType().equals("String")) {
+                    FragmentTextSimple frag = new FragmentTextSimple();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+                if (mQuestion.getQuestionType().equals("Checkboxes")) {
+                    FragmentCheckboxes frag = new FragmentCheckboxes();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+                if (mQuestion.getQuestionType().equals("Radioboxes")) {
+                    FragmentRadioboxes frag = new FragmentRadioboxes();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+                if (mQuestion.getQuestionType().equals("Number")) {
+                    FragmentNumber frag = new FragmentNumber();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+                if (mQuestion.getQuestionType().equals("StringMultiline")) {
+                    FragmentMultiline frag = new FragmentMultiline();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+            }
+
+            //- END -
+            FragmentEnd frag_end = new FragmentEnd();
+            Bundle eBundle = new Bundle();
+            eBundle.putSerializable("SurveryProperties", mSurvey.getSurveyProperties());
+            eBundle.putString("style", style_string);
+            frag_end.setArguments(eBundle);
+            arraylist_fragments.add(frag_end);
+        } else {
+            //- START -
+            if (!mSurveyPojo.getSurveyProperties().getSkipIntro()) {
+                FragmentStart frag_start = new FragmentStart();
+                Bundle sBundle = new Bundle();
+                sBundle.putSerializable("SurveryProperties", mSurveyPojo.getSurveyProperties());
+                sBundle.putString("style", style_string);
+                frag_start.setArguments(sBundle);
+                arraylist_fragments.add(frag_start);
+            }
+
+            //- PERSONAL -
+            if (!mSurveyPojo.getSurveyPersonal().getSkipPersonal()) {
+                FragmentPersonal frag_start = new FragmentPersonal();
+                Bundle sBundle = new Bundle();
+                sBundle.putSerializable("SurveryPersonal", mSurveyPojo.getSurveyPersonal());
+                sBundle.putString("style", style_string);
+                frag_start.setArguments(sBundle);
+                arraylist_fragments.add(frag_start);
+            }
+
+            //- FILL -
+            for (Question mQuestion : mSurveyPojo.getQuestions()) {
+
+                if (mQuestion.getQuestionType().equals("String")) {
+                    FragmentTextSimple frag = new FragmentTextSimple();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+                if (mQuestion.getQuestionType().equals("Checkboxes")) {
+                    FragmentCheckboxes frag = new FragmentCheckboxes();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+                if (mQuestion.getQuestionType().equals("Radioboxes")) {
+                    FragmentRadioboxes frag = new FragmentRadioboxes();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+                if (mQuestion.getQuestionType().equals("Number")) {
+                    FragmentNumber frag = new FragmentNumber();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+                if (mQuestion.getQuestionType().equals("StringMultiline")) {
+                    FragmentMultiline frag = new FragmentMultiline();
+                    Bundle xBundle = new Bundle();
+                    xBundle.putSerializable("data", mQuestion);
+                    xBundle.putString("style", style_string);
+                    frag.setArguments(xBundle);
+                    arraylist_fragments.add(frag);
+                }
+
+            }
+
+            //- END -
+            FragmentEnd frag_end = new FragmentEnd();
+            Bundle eBundle = new Bundle();
+            eBundle.putSerializable("SurveryProperties", mSurveyPojo.getSurveyProperties());
+            eBundle.putString("style", style_string);
+            frag_end.setArguments(eBundle);
+            arraylist_fragments.add(frag_end);
         }
-
-        //- PERSONAL -
-        if (!mSurveyPojo.getSurveyPersonal().getSkipPersonal()) {
-            FragmentPersonal frag_start = new FragmentPersonal();
-            Bundle sBundle = new Bundle();
-            sBundle.putSerializable("SurveryPersonal", mSurveyPojo.getSurveyPersonal());
-            sBundle.putString("style", style_string);
-            frag_start.setArguments(sBundle);
-            arraylist_fragments.add(frag_start);
-        }
-
-        //- FILL -
-        for (Question mQuestion : mSurveyPojo.getQuestions()) {
-
-            if (mQuestion.getQuestionType().equals("String")) {
-                FragmentTextSimple frag = new FragmentTextSimple();
-                Bundle xBundle = new Bundle();
-                xBundle.putSerializable("data", mQuestion);
-                xBundle.putString("style", style_string);
-                frag.setArguments(xBundle);
-                arraylist_fragments.add(frag);
-            }
-
-            if (mQuestion.getQuestionType().equals("Checkboxes")) {
-                FragmentCheckboxes frag = new FragmentCheckboxes();
-                Bundle xBundle = new Bundle();
-                xBundle.putSerializable("data", mQuestion);
-                xBundle.putString("style", style_string);
-                frag.setArguments(xBundle);
-                arraylist_fragments.add(frag);
-            }
-
-            if (mQuestion.getQuestionType().equals("Radioboxes")) {
-                FragmentRadioboxes frag = new FragmentRadioboxes();
-                Bundle xBundle = new Bundle();
-                xBundle.putSerializable("data", mQuestion);
-                xBundle.putString("style", style_string);
-                frag.setArguments(xBundle);
-                arraylist_fragments.add(frag);
-            }
-
-            if (mQuestion.getQuestionType().equals("Number")) {
-                FragmentNumber frag = new FragmentNumber();
-                Bundle xBundle = new Bundle();
-                xBundle.putSerializable("data", mQuestion);
-                xBundle.putString("style", style_string);
-                frag.setArguments(xBundle);
-                arraylist_fragments.add(frag);
-            }
-
-            if (mQuestion.getQuestionType().equals("StringMultiline")) {
-                FragmentMultiline frag = new FragmentMultiline();
-                Bundle xBundle = new Bundle();
-                xBundle.putSerializable("data", mQuestion);
-                xBundle.putString("style", style_string);
-                frag.setArguments(xBundle);
-                arraylist_fragments.add(frag);
-            }
-
-        }
-
-        //- END -
-        FragmentEnd frag_end = new FragmentEnd();
-        Bundle eBundle = new Bundle();
-        eBundle.putSerializable("SurveryProperties", mSurveyPojo.getSurveyProperties());
-        eBundle.putString("style", style_string);
-        frag_end.setArguments(eBundle);
-        arraylist_fragments.add(frag_end);
 
 
         mPager = (ViewPager) findViewById(R.id.pager);

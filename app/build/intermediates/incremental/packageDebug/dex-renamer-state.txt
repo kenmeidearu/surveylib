@@ -1,7 +1,0 @@
-#Wed Sep 20 15:58:37 WIB 2017
-base.0=/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_732e1f49b1edd5968655999c7678ce18eb479e16
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a05a21e9b1296fb033e04adde4a2e77bc9712c05/classes.dex
-base.1=/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a05a21e9b1296fb033e04adde4a2e77bc9712c05
-file.0=/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_732e1f49b1edd5968655999c7678ce18eb479e16/classes.dex

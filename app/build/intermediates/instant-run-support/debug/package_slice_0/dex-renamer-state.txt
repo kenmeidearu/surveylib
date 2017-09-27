@@ -1,4 +1,0 @@
-#Tue Sep 19 09:03:42 WIB 2017
-base.0=/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
-renamed.0=classes.dex
-file.0=/Users/kenjinsan/Documents/AndroidProject/surveylib/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
