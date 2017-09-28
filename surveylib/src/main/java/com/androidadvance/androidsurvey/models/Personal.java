@@ -10,6 +10,9 @@ import java.io.Serializable;
  */
 
 public class Personal implements Serializable {
+    @SerializedName("PersonalId")
+    @Expose
+    private int PersonalId;
     @SerializedName("Title")
     @Expose
     private String title;
@@ -23,9 +26,18 @@ public class Personal implements Serializable {
     @Expose
     private String value;
 
-    public Personal(String title, String value) {
+    public Personal(int personalId, String title, String value) {
+        this.PersonalId = personalId;
         this.title = title;
         this.value = value;
+    }
+
+    public int getPersonalId() {
+        return PersonalId;
+    }
+
+    public void setPersonalId(int personalId) {
+        PersonalId = personalId;
     }
 
     public String getTitle() {

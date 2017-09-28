@@ -12,9 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fc036816-bcd3-4fe0-a625-5dfb13b55969" name="Default" comment="update model survey&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/SurveyActivity.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/SurveyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Survey.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Survey.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java" afterPath="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/surveylib/surveylib-surveylib.iml" afterPath="$PROJECT_DIR$/surveylib/surveylib-surveylib.iml" />
     </list>
     <ignored path="surveylib-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,59 +52,66 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="945">
               <caret line="92" column="40" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyPersonal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyPersonal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Survey.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Survey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2082#2083#0" expanded="false" />
+                <element signature="e#2154#2155#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java">
+      <file leaf-file-name="Survey.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Survey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2910">
-              <caret line="239" column="21" selection-start-line="239" selection-start-column="21" selection-end-line="239" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyPojo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyPojo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="e#1405#1406#0" expanded="false" />
+                <element signature="e#1436#1437#0" expanded="false" />
+                <element signature="e#1481#1482#0" expanded="false" />
+                <element signature="e#1516#1517#0" expanded="false" />
+                <element signature="e#1553#1554#0" expanded="false" />
+                <element signature="e#1586#1587#0" expanded="false" />
+                <element signature="e#1638#1639#0" expanded="false" />
+                <element signature="e#1677#1678#0" expanded="false" />
+                <element signature="e#1714#1715#0" expanded="false" />
+                <element signature="e#1747#1748#0" expanded="false" />
+                <element signature="e#1799#1800#0" expanded="false" />
+                <element signature="e#1838#1839#0" expanded="false" />
+                <element signature="e#1875#1876#0" expanded="false" />
+                <element signature="e#1908#1909#0" expanded="false" />
+                <element signature="e#1960#1961#0" expanded="false" />
+                <element signature="e#1999#2000#0" expanded="false" />
+                <element signature="e#2036#2037#0" expanded="false" />
+                <element signature="e#2072#2073#0" expanded="false" />
+                <element signature="e#2127#2128#0" expanded="false" />
+                <element signature="e#2172#2173#0" expanded="false" />
+                <element signature="e#2216#2217#0" expanded="false" />
+                <element signature="e#2256#2257#0" expanded="false" />
+                <element signature="e#2412#2413#0" expanded="false" />
+                <element signature="e#2445#2446#0" expanded="false" />
+                <element signature="e#2498#2499#0" expanded="false" />
+                <element signature="e#2537#2538#0" expanded="false" />
+                <element signature="e#2576#2577#0" expanded="false" />
+                <element signature="e#2611#2612#0" expanded="false" />
+                <element signature="e#2667#2668#0" expanded="false" />
+                <element signature="e#2710#2711#0" expanded="false" />
+                <element signature="e#2747#2748#0" expanded="false" />
+                <element signature="e#2780#2781#0" expanded="false" />
+                <element signature="e#2832#2833#0" expanded="false" />
+                <element signature="e#2871#2872#0" expanded="false" />
+                <element signature="e#2904#2905#0" expanded="false" />
+                <element signature="e#2933#2934#0" expanded="false" />
+                <element signature="e#2978#2979#0" expanded="false" />
+                <element signature="e#3009#3010#0" expanded="false" />
+                <element signature="e#3360#3361#0" expanded="false" />
+                <element signature="e#3402#3403#0" expanded="false" />
+                <element signature="e#3586#3587#0" expanded="false" />
+                <element signature="e#3618#3619#0" expanded="false" />
+                <element signature="e#3681#3682#0" expanded="false" />
+                <element signature="e#3718#3719#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,10 +119,27 @@
       <file leaf-file-name="SurveyActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/SurveyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="420">
               <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#9784#9785#0" expanded="false" />
+                <element signature="e#9850#9851#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="56" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="56" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -142,9 +166,44 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_survey_3.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_3.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentPersonal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1321">
+              <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Personal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2892,15 +2951,12 @@
         <option value="$PROJECT_DIR$/surveylib/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/Answers.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_personal.xml" />
-        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyPersonal.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyPojo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentStart.java" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/example_survey_3.json" />
         <option value="$PROJECT_DIR$/app/src/main/assets/example_survey_2.json" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentEnd.java" />
-        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentRadioboxes.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentCheckboxes.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/example_survey_1.json" />
@@ -2909,13 +2965,16 @@
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Question.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/SurveyActivity.java" />
         <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Survey.java" />
+        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java" />
+        <option value="$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/example_survey_3.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="732" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2964,6 +3023,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3090,14 +3154,23 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="surveylib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3511,11 +3584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506485538022</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update model survey&#10;">
+      <created>1506496830002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1506496830002</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3524,7 +3604,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31006494" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30781758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32520324" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
@@ -3622,13 +3702,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_radioboxes.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/util/LinkedHashMap.java">
@@ -3639,33 +3719,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_text_simple.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_text_multiline.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_text_multiline.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_checkboxes.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_checkboxes.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.1.0/support-v4-23.1.0-sources.jar!/android/support/v4/view/ViewPager.java">
@@ -3710,24 +3790,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
@@ -3766,13 +3836,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/res/layout/fragment_personal.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/Answers.java">
@@ -3824,26 +3894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1799#1800#0" expanded="false" />
-            <element signature="e#1846#1847#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1428">
@@ -3858,18 +3908,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/SurveyPersonal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#710#711#0" expanded="false" />
+            <element signature="e#758#759#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+            <element signature="e#850#851#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#965#966#0" expanded="false" />
+            <element signature="e#1022#1023#0" expanded="false" />
+            <element signature="e#1070#1071#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3885,7 +3942,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#677#678#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
+            <element signature="e#793#794#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#914#915#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+            <element signature="e#1066#1067#0" expanded="false" />
+            <element signature="e#1114#1115#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1230#1231#0" expanded="false" />
+            <element signature="e#1339#1340#0" expanded="false" />
+            <element signature="e#1383#1384#0" expanded="false" />
+            <element signature="e#1465#1466#0" expanded="false" />
+            <element signature="e#1497#1498#0" expanded="false" />
+            <element signature="e#1603#1604#0" expanded="false" />
+            <element signature="e#1645#1646#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="false" />
+            <element signature="e#1711#1712#0" expanded="false" />
+            <element signature="e#1759#1760#0" expanded="false" />
+            <element signature="e#1799#1800#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3893,7 +3972,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2910">
           <caret line="239" column="21" selection-start-line="239" selection-start-column="21" selection-end-line="239" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1415#1416#0" expanded="false" />
+            <element signature="e#1546#1547#0" expanded="false" />
+            <element signature="e#1594#1595#0" expanded="false" />
+            <element signature="e#1697#1698#0" expanded="false" />
+            <element signature="e#1733#1734#0" expanded="false" />
+            <element signature="e#1868#1869#0" expanded="false" />
+            <element signature="e#1918#1919#0" expanded="false" />
+            <element signature="e#2017#2018#0" expanded="false" />
+            <element signature="e#2051#2052#0" expanded="false" />
+            <element signature="e#2177#2178#0" expanded="false" />
+            <element signature="e#2223#2224#0" expanded="false" />
+            <element signature="e#2317#2318#0" expanded="false" />
+            <element signature="e#2348#2349#0" expanded="false" />
+            <element signature="e#2463#2464#0" expanded="false" />
+            <element signature="e#2503#2504#0" expanded="false" />
+            <element signature="e#2607#2608#0" expanded="false" />
+            <element signature="e#2643#2644#0" expanded="false" />
+            <element signature="e#2779#2780#0" expanded="false" />
+            <element signature="e#2829#2830#0" expanded="false" />
+            <element signature="e#3007#3008#0" expanded="false" />
+            <element signature="e#3037#3038#0" expanded="false" />
+            <element signature="e#3254#3255#0" expanded="false" />
+            <element signature="e#3292#3293#0" expanded="false" />
+            <element signature="e#3376#3377#0" expanded="false" />
+            <element signature="e#3402#3403#0" expanded="false" />
+            <element signature="e#3497#3498#0" expanded="false" />
+            <element signature="e#3527#3528#0" expanded="false" />
+            <element signature="e#3611#3612#0" expanded="false" />
+            <element signature="e#3637#3638#0" expanded="false" />
+            <element signature="e#3732#3733#0" expanded="false" />
+            <element signature="e#3762#3763#0" expanded="false" />
+            <element signature="e#3866#3867#0" expanded="false" />
+            <element signature="e#3902#3903#0" expanded="false" />
+            <element signature="e#4039#4040#0" expanded="false" />
+            <element signature="e#4089#4090#0" expanded="false" />
+            <element signature="e#4187#4188#0" expanded="false" />
+            <element signature="e#4220#4221#0" expanded="false" />
+            <element signature="e#4343#4344#0" expanded="false" />
+            <element signature="e#4387#4388#0" expanded="false" />
+            <element signature="e#4951#4952#0" expanded="false" />
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5042#5043#0" expanded="false" />
+            <element signature="e#5090#5091#0" expanded="false" />
+            <element signature="e#5132#5133#0" expanded="false" />
+            <element signature="e#5174#5175#0" expanded="false" />
+            <element signature="e#5232#5233#0" expanded="false" />
+            <element signature="e#5286#5287#0" expanded="false" />
+            <element signature="e#5325#5326#0" expanded="false" />
+            <element signature="e#5364#5365#0" expanded="false" />
+            <element signature="e#5417#5418#0" expanded="false" />
+            <element signature="e#5465#5466#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3901,7 +4034,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+            <element signature="e#1004#1005#0" expanded="false" />
+            <element signature="e#1041#1042#0" expanded="false" />
+            <element signature="e#1264#1265#0" expanded="false" />
+            <element signature="e#1296#1297#0" expanded="false" />
+            <element signature="e#1422#1423#0" expanded="false" />
+            <element signature="e#1464#1465#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3909,15 +4052,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="92" column="40" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/SurveyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2082#2083#0" expanded="false" />
+            <element signature="e#2154#2155#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3937,21 +4076,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Survey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#1405#1406#0" expanded="false" />
+            <element signature="e#1436#1437#0" expanded="false" />
+            <element signature="e#1481#1482#0" expanded="false" />
+            <element signature="e#1516#1517#0" expanded="false" />
+            <element signature="e#1553#1554#0" expanded="false" />
+            <element signature="e#1586#1587#0" expanded="false" />
+            <element signature="e#1638#1639#0" expanded="false" />
+            <element signature="e#1677#1678#0" expanded="false" />
+            <element signature="e#1714#1715#0" expanded="false" />
+            <element signature="e#1747#1748#0" expanded="false" />
+            <element signature="e#1799#1800#0" expanded="false" />
+            <element signature="e#1838#1839#0" expanded="false" />
+            <element signature="e#1875#1876#0" expanded="false" />
+            <element signature="e#1908#1909#0" expanded="false" />
+            <element signature="e#1960#1961#0" expanded="false" />
+            <element signature="e#1999#2000#0" expanded="false" />
+            <element signature="e#2036#2037#0" expanded="false" />
+            <element signature="e#2072#2073#0" expanded="false" />
+            <element signature="e#2127#2128#0" expanded="false" />
+            <element signature="e#2172#2173#0" expanded="false" />
+            <element signature="e#2216#2217#0" expanded="false" />
+            <element signature="e#2256#2257#0" expanded="false" />
+            <element signature="e#2412#2413#0" expanded="false" />
+            <element signature="e#2445#2446#0" expanded="false" />
+            <element signature="e#2498#2499#0" expanded="false" />
+            <element signature="e#2537#2538#0" expanded="false" />
+            <element signature="e#2576#2577#0" expanded="false" />
+            <element signature="e#2611#2612#0" expanded="false" />
+            <element signature="e#2667#2668#0" expanded="false" />
+            <element signature="e#2710#2711#0" expanded="false" />
+            <element signature="e#2747#2748#0" expanded="false" />
+            <element signature="e#2780#2781#0" expanded="false" />
+            <element signature="e#2832#2833#0" expanded="false" />
+            <element signature="e#2871#2872#0" expanded="false" />
+            <element signature="e#2904#2905#0" expanded="false" />
+            <element signature="e#2933#2934#0" expanded="false" />
+            <element signature="e#2978#2979#0" expanded="false" />
+            <element signature="e#3009#3010#0" expanded="false" />
+            <element signature="e#3360#3361#0" expanded="false" />
+            <element signature="e#3402#3403#0" expanded="false" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3618#3619#0" expanded="false" />
+            <element signature="e#3681#3682#0" expanded="false" />
+            <element signature="e#3718#3719#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="56" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/SurveyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#9784#9785#0" expanded="false" />
+            <element signature="e#9850#9851#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Survey.java">
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/models/Personal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="-48">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/surveylib/src/main/java/com/androidadvance/androidsurvey/fragment/FragmentPersonal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1321">
+          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/example_survey_3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -29,6 +29,7 @@ public class FragmentPersonal extends Fragment {
 
     SurveyPersonal q_data;
     List<TextInputEditText> allTI = new ArrayList<>();
+    List<Integer> askId = new ArrayList<>();
     List<String> asks = new ArrayList<>();
     List<Boolean> required = new ArrayList<>();
     private FragmentActivity mContext;
@@ -74,11 +75,13 @@ public class FragmentPersonal extends Fragment {
                 ArrayList<Personal> value = new ArrayList<>();
                 for (int i = 0; i < allTI.size(); i++) {
                     String ask, answer = "";
+                    int askid;
                     ask = asks.get(i);
+                    askid = askId.get(i);
                     if (!TextUtils.isEmpty(allTI.get(i).getEditableText())) {
                         answer = allTI.get(i).getEditableText().toString();
                     }
-                    value.add(new Personal(ask, answer));
+                    value.add(new Personal(askid, ask, answer));
                 }
                 Answers.getInstance().put_answer(q_data.getPersonalId(), value);
             }
@@ -122,6 +125,7 @@ public class FragmentPersonal extends Fragment {
                     allTI.add(newTi);
                     required.add(personal.getRequired());
                     asks.add(personal.getTitle());
+                    askId.add(personal.getPersonalId());
                     newLL.addView(newTiL);
                     contentline.addView(newLL);
                 }
