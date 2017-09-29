@@ -95,7 +95,7 @@ public class Answers implements Serializable {
         }
     }
 
-    public class PersonalValue {
+    public class PersonalValue implements Serializable {
         String idAsk;
         ArrayList<Personal> value;
 
@@ -121,7 +121,8 @@ public class Answers implements Serializable {
             this.value = value;
         }
     }
-    public  class  AnswerValue{
+
+    public class AnswerValue implements Serializable {
         String idAsk;
         String Ask;
         ArrayList<Question.MultipleChoice> Answer;
