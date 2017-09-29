@@ -126,6 +126,7 @@ public class Answers implements Serializable {
         String idAsk;
         String Ask;
         ArrayList<Question.MultipleChoice> Answer;
+        boolean StatusSend;
 
         public AnswerValue(String idAsk, String ask,ArrayList<Question.MultipleChoice> answer) {
             this.idAsk = idAsk;
@@ -149,6 +150,14 @@ public class Answers implements Serializable {
             this.Ask = ask;
         }
 
+        public boolean isStatusSend() {
+            return StatusSend;
+        }
+
+        public void setStatusSend(boolean statusSend) {
+            StatusSend = statusSend;
+        }
+
         public ArrayList<Question.MultipleChoice> getAnswer() {
             return Answer;
         }
@@ -156,5 +165,6 @@ public class Answers implements Serializable {
         public void setAnswer(ArrayList<Question.MultipleChoice> answer) {
             Answer = answer;
         }
+
     }
 }

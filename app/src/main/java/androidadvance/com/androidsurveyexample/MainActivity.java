@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.androidadvance.androidsurvey.Answers;
 import com.androidadvance.androidsurvey.SurveyActivity;
 
 import java.io.IOException;
@@ -65,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
 
                 String answers_json = data.getExtras().getString("answers");
-                Log.e("****", "****************** WE HAVE ANSWERS ******************");
+                Answers.AllValue hasil = (Answers.AllValue) data.getSerializableExtra(SurveyActivity.ANSWERSOBJECT);
+                Log.e("****", "****************** WE HAVE ANSWERS ******************" + hasil.toString());
                 Log.e("ANSWERS JSON", answers_json);
                 Log.e("****", "*****************************************************");
 
