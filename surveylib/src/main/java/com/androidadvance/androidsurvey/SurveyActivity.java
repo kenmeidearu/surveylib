@@ -27,6 +27,8 @@ public class SurveyActivity extends AppCompatActivity {
 
     public final static String SESSIONSURVEY = "SESSIONSURVEY";
     public final static String SESSIONJSONSURVEY = "JsonSurvey";
+    public final static String RETURNANSWERSURVEY = "AnswerSurvey";
+    public final static String ANSWERS = "answers";
     public final static String STYLE = "style";
     private SurveyPojo mSurveyPojo;
     private Survey mSurvey = null;
@@ -237,7 +239,8 @@ public class SurveyActivity extends AppCompatActivity {
 
     public void event_survey_completed(Answers instance) {
         Intent returnIntent = new Intent();
-        returnIntent.putExtra("answers", instance.get_json_object());
+        returnIntent.putExtra(ANSWERS, instance.get_json_object());
+        returnIntent.putExtra(RETURNANSWERSURVEY, instance.getAnswer());
         setResult(Activity.RESULT_OK, returnIntent);
         finish();
     }

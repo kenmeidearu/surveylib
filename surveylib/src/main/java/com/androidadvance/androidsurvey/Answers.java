@@ -5,11 +5,12 @@ import com.androidadvance.androidsurvey.models.Personal;
 import com.androidadvance.androidsurvey.models.Question;
 import com.google.gson.Gson;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 //Singleton Answers ........
 
-public class Answers {
+public class Answers implements Serializable {
     private volatile static Answers uniqueInstance;
     private  final ArrayList<AnswerValue> answerValues=new ArrayList<>();
     private final ArrayList<PersonalValue> personalValue = new ArrayList<>();
@@ -47,15 +48,18 @@ public class Answers {
 
     public String get_json_object() {
         Gson gson = new Gson();
-
         return gson.toJson(new AllValue(surveyId, personalValue, answerValues));
+    }
+
+    public AllValue getAnswer() {
+        return new AllValue(surveyId, personalValue, answerValues);
     }
 
     public ArrayList<AnswerValue>  getValue() {
         return answerValues;
     }
 
-    public class AllValue {
+    public class AllValue implements Serializable {
         String SurveyId;
         ArrayList<PersonalValue> PersonalInfo;
         ArrayList<AnswerValue> SurveyAnswer;
