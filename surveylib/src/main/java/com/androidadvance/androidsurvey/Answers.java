@@ -63,6 +63,7 @@ public class Answers implements Serializable {
         String SurveyId;
         ArrayList<PersonalValue> PersonalInfo;
         ArrayList<AnswerValue> SurveyAnswer;
+        boolean StatusSend;
 
         public AllValue(String surveyId, ArrayList<PersonalValue> personal, ArrayList<AnswerValue> answer) {
             this.SurveyId = surveyId;
@@ -76,6 +77,14 @@ public class Answers implements Serializable {
 
         public void setSurveyId(String surveyId) {
             this.SurveyId = surveyId;
+        }
+
+        public boolean isStatusSend() {
+            return StatusSend;
+        }
+
+        public void setStatusSend(boolean statusSend) {
+            StatusSend = statusSend;
         }
 
         public ArrayList<PersonalValue> getPersonal() {
@@ -126,7 +135,7 @@ public class Answers implements Serializable {
         String idAsk;
         String Ask;
         ArrayList<Question.MultipleChoice> Answer;
-        boolean StatusSend;
+
 
         public AnswerValue(String idAsk, String ask,ArrayList<Question.MultipleChoice> answer) {
             this.idAsk = idAsk;
@@ -148,14 +157,6 @@ public class Answers implements Serializable {
 
         public void setAsk(String ask) {
             this.Ask = ask;
-        }
-
-        public boolean isStatusSend() {
-            return StatusSend;
-        }
-
-        public void setStatusSend(boolean statusSend) {
-            StatusSend = statusSend;
         }
 
         public ArrayList<Question.MultipleChoice> getAnswer() {
