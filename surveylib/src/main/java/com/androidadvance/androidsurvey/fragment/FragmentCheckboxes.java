@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.text.Html;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +21,6 @@ import com.androidadvance.androidsurvey.Answers;
 import com.androidadvance.androidsurvey.R;
 import com.androidadvance.androidsurvey.SurveyActivity;
 import com.androidadvance.androidsurvey.models.Question;
-import com.google.gson.Gson;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,13 +29,13 @@ import java.util.List;
 
 public class FragmentCheckboxes extends Fragment {
 
+    private final ArrayList<CheckBox> allCb = new ArrayList<>();
+    List<Question.MultipleChoice> qq_data;
     private Question q_data;
     private FragmentActivity mContext;
     private Button button_continue;
     private TextView textview_q_title;
     private LinearLayout linearLayout_checkboxes;
-    private final ArrayList<CheckBox> allCb = new ArrayList<>();
-    List<Question.MultipleChoice> qq_data;
     private ArrayList<Question.MultipleChoice> selected = new ArrayList<>();
 
     @Override
@@ -72,7 +70,7 @@ public class FragmentCheckboxes extends Fragment {
             }
         }
         if (selected.size() > 0) {
-            Answers.getInstance().put_answer(q_data.getQuestionId(), textview_q_title.getText().toString(), selected);
+            Answers.getInstance().put_answer(q_data.getQuestionId(), textview_q_title.getText().toString(), q_data.getQuestionType(), selected);
         }
 
         if (q_data.getRequired()) {

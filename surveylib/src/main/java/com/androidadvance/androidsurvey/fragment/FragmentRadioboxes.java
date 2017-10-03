@@ -74,7 +74,7 @@ public class FragmentRadioboxes extends Fragment {
         if (the_choice.length() > 0) {
             //Answers.getInstance().put_answer(textview_q_title.getText().toString(), choice.getIdChoice()+","+choice.getValueChoice());
             value.add(new Question.MultipleChoice(choice.getIdChoice(), choice.getValueChoice()));
-            Answers.getInstance().put_answer(q_data.getQuestionId(), textview_q_title.getText().toString(), value);
+            Answers.getInstance().put_answer(q_data.getQuestionId(), textview_q_title.getText().toString(), q_data.getQuestionType(), value);
         }
 
 

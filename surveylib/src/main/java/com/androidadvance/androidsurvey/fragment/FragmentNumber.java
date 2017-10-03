@@ -22,15 +22,14 @@ import com.androidadvance.androidsurvey.SurveyActivity;
 import com.androidadvance.androidsurvey.models.Question;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 
 public class FragmentNumber extends Fragment {
 
+    Question q_data;
     private FragmentActivity mContext;
     private Button button_continue;
     private TextView textview_q_title;
     private EditText editText_answer;
-    Question q_data;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -47,7 +46,7 @@ public class FragmentNumber extends Fragment {
                 //Answers.getInstance().put_answer(textview_q_title.getText().toString(), editText_answer.getText().toString().trim());
                 ArrayList<Question.MultipleChoice> value = new ArrayList<>();
                 value.add( new Question.MultipleChoice("0",editText_answer.getText().toString().trim()));
-                Answers.getInstance().put_answer(q_data.getQuestionId(), textview_q_title.getText().toString(), value);
+                Answers.getInstance().put_answer(q_data.getQuestionId(), textview_q_title.getText().toString(), q_data.getQuestionType(), value);
                 ((SurveyActivity) mContext).go_to_next();
             }
         });

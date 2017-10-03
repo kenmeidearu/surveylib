@@ -33,8 +33,8 @@ public class Answers implements Serializable {
         return uniqueInstance;
     }
 
-    public void put_answer(String id,String ask,ArrayList<Question.MultipleChoice> answer ) {
-        answerValues.add(new AnswerValue(id, ask,answer));
+    public void put_answer(String id, String ask, String typeAsk, ArrayList<Question.MultipleChoice> answer) {
+        answerValues.add(new AnswerValue(id, ask, typeAsk, answer));
     }
 
     public void put_answer(String id, ArrayList<Personal> answer) {
@@ -173,12 +173,14 @@ public class Answers implements Serializable {
     public class AnswerValue implements Serializable {
         String idAsk;
         String Ask;
+        String TypeAsk;
         ArrayList<Question.MultipleChoice> Answer;
 
 
-        public AnswerValue(String idAsk, String ask,ArrayList<Question.MultipleChoice> answer) {
+        public AnswerValue(String idAsk, String ask, String typeAsk, ArrayList<Question.MultipleChoice> answer) {
             this.idAsk = idAsk;
             this.Ask = ask;
+            this.TypeAsk = typeAsk;
             this.Answer = answer;
         }
 
@@ -196,6 +198,14 @@ public class Answers implements Serializable {
 
         public void setAsk(String ask) {
             this.Ask = ask;
+        }
+
+        public String getTypeAsk() {
+            return TypeAsk;
+        }
+
+        public void setTypeAsk(String typeAsk) {
+            TypeAsk = typeAsk;
         }
 
         public ArrayList<Question.MultipleChoice> getAnswer() {
