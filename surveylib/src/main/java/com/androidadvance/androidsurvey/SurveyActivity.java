@@ -27,13 +27,16 @@ public class SurveyActivity extends AppCompatActivity {
 
     public final static String SESSIONSURVEY = "SESSIONSURVEY";
     public final static String SESSIONJSONSURVEY = "JsonSurvey";
+    public final static String CREATORID = "CreatorId";
     public final static String ANSWERSOBJECT = "AnswerSurvey";
     public final static String ANSWERSSTRING = "answers";
+
     public final static String STYLE = "style";
     private SurveyPojo mSurveyPojo;
     private Survey mSurvey = null;
     private ViewPager mPager;
     private String style_string = null;
+    private String creatorId = "NAN";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +54,9 @@ public class SurveyActivity extends AppCompatActivity {
             if (bundle.getSerializable(SESSIONSURVEY) != null) {
                 mSurvey = (Survey) bundle.getSerializable(SESSIONSURVEY);
             }
+            if (bundle.containsKey(CREATORID))
+                creatorId = bundle.getString(CREATORID);
+
         }
 
         // Log.e("json Object = ", String.valueOf(mSurveyPojo.getQuestions()));
@@ -133,6 +139,7 @@ public class SurveyActivity extends AppCompatActivity {
             Bundle eBundle = new Bundle();
             eBundle.putSerializable("SurveryProperties", mSurvey.getSurveyProperties());
             eBundle.putString("style", style_string);
+            eBundle.putString("CreatorId", creatorId);
             frag_end.setArguments(eBundle);
             arraylist_fragments.add(frag_end);
         } else {
@@ -211,6 +218,7 @@ public class SurveyActivity extends AppCompatActivity {
             Bundle eBundle = new Bundle();
             eBundle.putSerializable("SurveryProperties", mSurveyPojo.getSurveyProperties());
             eBundle.putString("style", style_string);
+            eBundle.putString("CreatorId", creatorId);
             frag_end.setArguments(eBundle);
             arraylist_fragments.add(frag_end);
         }

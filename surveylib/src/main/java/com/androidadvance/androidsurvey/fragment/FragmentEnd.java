@@ -20,6 +20,7 @@ public class FragmentEnd extends Fragment {
 
     private FragmentActivity mContext;
     private TextView textView_end;
+    private String answerId;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -35,7 +36,7 @@ public class FragmentEnd extends Fragment {
         button_finish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Answers.getInstance().setAnswerId(answerId);
                 ((SurveyActivity) mContext).event_survey_completed(Answers.getInstance());
 
             }
@@ -55,6 +56,9 @@ public class FragmentEnd extends Fragment {
 
         assert survery_properties != null;
         textView_end.setText(Html.fromHtml(survery_properties.getEndMessage()));
-
+        String creatorId = "NOID";
+        if (getArguments().getSerializable("CreatorId") != null)
+            creatorId = getArguments().getString("CreatorId");
+        answerId = creatorId;
     }
 }

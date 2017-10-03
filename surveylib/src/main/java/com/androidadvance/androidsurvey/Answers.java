@@ -6,7 +6,9 @@ import com.androidadvance.androidsurvey.models.Question;
 import com.google.gson.Gson;
 
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 //Singleton Answers ........
 
@@ -15,6 +17,7 @@ public class Answers implements Serializable {
     private  final ArrayList<AnswerValue> answerValues=new ArrayList<>();
     private final ArrayList<PersonalValue> personalValue = new ArrayList<>();
     private String surveyId;
+    private String AnswerId;
 
     private Answers() {
     }
@@ -38,6 +41,16 @@ public class Answers implements Serializable {
         personalValue.add(new PersonalValue(id, answer));
     }
 
+    public String getAnswerId() {
+        return AnswerId;
+    }
+
+    public void setAnswerId(String creatorId) {
+        Calendar calss = Calendar.getInstance();
+        SimpleDateFormat smp2 = new SimpleDateFormat("yyMMddhhmmss");
+        AnswerId = String.valueOf(creatorId).concat(String.valueOf(smp2.format(calss.getTime())));
+    }
+
     public String getSurveyId() {
         return surveyId;
     }
@@ -48,11 +61,11 @@ public class Answers implements Serializable {
 
     public String get_json_object() {
         Gson gson = new Gson();
-        return gson.toJson(new AllValue(surveyId, personalValue, answerValues));
+        return gson.toJson(new AllValue(AnswerId, surveyId, personalValue, answerValues));
     }
 
     public AllValue getAnswer() {
-        return new AllValue(surveyId, personalValue, answerValues);
+        return new AllValue(AnswerId, surveyId, personalValue, answerValues);
     }
 
     public ArrayList<AnswerValue>  getValue() {
@@ -60,15 +73,41 @@ public class Answers implements Serializable {
     }
 
     public class AllValue implements Serializable {
+        String AnswerId;
         String SurveyId;
         ArrayList<PersonalValue> PersonalInfo;
         ArrayList<AnswerValue> SurveyAnswer;
         boolean StatusSend;
 
-        public AllValue(String surveyId, ArrayList<PersonalValue> personal, ArrayList<AnswerValue> answer) {
+        public AllValue(String answerId, String surveyId, ArrayList<PersonalValue> personal, ArrayList<AnswerValue> answer) {
+            this.AnswerId = answerId;
             this.SurveyId = surveyId;
             this.PersonalInfo = personal;
             this.SurveyAnswer = answer;
+        }
+
+        public String getAnswerId() {
+            return AnswerId;
+        }
+
+        public void setAnswerId(String answerId) {
+            AnswerId = answerId;
+        }
+
+        public ArrayList<PersonalValue> getPersonalInfo() {
+            return PersonalInfo;
+        }
+
+        public void setPersonalInfo(ArrayList<PersonalValue> personalInfo) {
+            PersonalInfo = personalInfo;
+        }
+
+        public ArrayList<AnswerValue> getSurveyAnswer() {
+            return SurveyAnswer;
+        }
+
+        public void setSurveyAnswer(ArrayList<AnswerValue> surveyAnswer) {
+            SurveyAnswer = surveyAnswer;
         }
 
         public String getSurveyId() {

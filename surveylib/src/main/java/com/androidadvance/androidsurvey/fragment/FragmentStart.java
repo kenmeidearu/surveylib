@@ -22,6 +22,7 @@ public class FragmentStart extends Fragment {
     private TextView textView_start;
     private String surveyId;
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -33,6 +34,7 @@ public class FragmentStart extends Fragment {
         button_continue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Answers.getInstance().setSurveyId(surveyId);
                 ((SurveyActivity) mContext).go_to_next();
             }
@@ -51,7 +53,6 @@ public class FragmentStart extends Fragment {
         assert survery_properties != null;
         textView_start.setText(Html.fromHtml(survery_properties.getIntroMessage()));
         surveyId = survery_properties.getSurveyId();
-
 
 
 
