@@ -78,7 +78,18 @@
       "Min": 0,
       "Max": 0,
       "NumberOfLines": 5,
-      "Choices": null
+      "Choices": [
+        {
+          "IdChoice": 16,
+          "ValueChoice": "Ya",
+          "Selected": false
+        },
+        {
+          "IdChoice": 17,
+          "ValueChoice": "Tidak",
+          "Selected": false
+        }
+      ]
     },
     {
       "QuestionId": 8,
@@ -90,7 +101,28 @@
       "Min": 0,
       "Max": 0,
       "NumberOfLines": 5,
-      "Choices": null
+      "Choices": [
+        {
+          "IdChoice": 12,
+          "ValueChoice": "Sangat Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 13,
+          "ValueChoice": "Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 14,
+          "ValueChoice": "Kurang Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 15,
+          "ValueChoice": "Tidak Setuju",
+          "Selected": false
+        }
+      ]
     },
     {
       "QuestionId": 9,
@@ -102,7 +134,28 @@
       "Min": 0,
       "Max": 0,
       "NumberOfLines": 5,
-      "Choices": null
+      "Choices": [
+        {
+          "IdChoice": 12,
+          "ValueChoice": "Sangat Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 13,
+          "ValueChoice": "Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 14,
+          "ValueChoice": "Kurang Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 15,
+          "ValueChoice": "Tidak Setuju",
+          "Selected": false
+        }
+      ]
     },
     {
       "QuestionId": 10,
@@ -114,7 +167,28 @@
       "Min": 0,
       "Max": 0,
       "NumberOfLines": 5,
-      "Choices": null
+      "Choices": [
+        {
+          "IdChoice": 12,
+          "ValueChoice": "Sangat Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 13,
+          "ValueChoice": "Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 14,
+          "ValueChoice": "Kurang Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 15,
+          "ValueChoice": "Tidak Setuju",
+          "Selected": false
+        }
+      ]
     },
     {
       "QuestionId": 11,
@@ -126,7 +200,28 @@
       "Min": 0,
       "Max": 0,
       "NumberOfLines": 5,
-      "Choices": null
+      "Choices": [
+        {
+          "IdChoice": 12,
+          "ValueChoice": "Sangat Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 13,
+          "ValueChoice": "Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 14,
+          "ValueChoice": "Kurang Setuju",
+          "Selected": false
+        },
+        {
+          "IdChoice": 15,
+          "ValueChoice": "Tidak Setuju",
+          "Selected": false
+        }
+      ]
     },
     {
       "QuestionId": 12,
