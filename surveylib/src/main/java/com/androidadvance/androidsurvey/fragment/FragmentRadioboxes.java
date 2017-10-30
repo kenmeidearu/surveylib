@@ -105,34 +105,38 @@ public class FragmentRadioboxes extends Fragment {
 
         // List<String> qq_data = q_data.getChoices();//dirubah array int and string
         List<Question.MultipleChoice> qq_data = q_data.getChoices();
+        // Log.e("isi qq", qq_data.size() + ",jml");
         if (q_data.getRandomChoices()) {
             Collections.shuffle(qq_data);
         }
 
-        for (final Question.MultipleChoice choice : qq_data) {
-            RadioButton rb = new RadioButton(mContext);
-            rb.setText(Html.fromHtml(choice.getValueChoice()));
-            rb.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
-            rb.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-            radioGroup.addView(rb);
-            allRb.add(rb);
+        if (qq_data != null)
+            for (final Question.MultipleChoice choice : qq_data) {
+                RadioButton rb = new RadioButton(mContext);
+                rb.setText(Html.fromHtml(choice.getValueChoice()));
+                rb.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+                rb.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                radioGroup.addView(rb);
+                allRb.add(rb);
 
-            rb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-                @Override
-                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                    if (isChecked)
-                        collect_data(choice);
-                    //Toast.makeText(getActivity(),"you clicked "+ choice.getIdChoice()+" "+choice.getValueChoice(),Toast.LENGTH_SHORT).show();
+                rb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                        if (isChecked)
+                            collect_data(choice);
+                        //Toast.makeText(getActivity(),"you clicked "+ choice.getIdChoice()+" "+choice.getValueChoice(),Toast.LENGTH_SHORT).show();
 
-                }
-            });
-        }
-        if (q_data.getRequired()) {
+                    }
+                });
+            }
+        if (q_data.getRequired() && qq_data != null) {
             if (at_leaset_one_checked) {
                 button_continue.setVisibility(View.VISIBLE);
             } else {
                 button_continue.setVisibility(View.GONE);
             }
+        } else {
+            button_continue.setVisibility(View.VISIBLE);
         }
 
 

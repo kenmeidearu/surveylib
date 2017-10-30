@@ -63,9 +63,9 @@ public class FragmentCheckboxes extends Fragment {
         boolean at_leaset_one_checked = false;
         LinkedHashMap<String, String> value = new LinkedHashMap<>();
         selected.clear();
-        for(Question.MultipleChoice choice:qq_data){
-            if(choice.isSelected()) {
-                at_leaset_one_checked=true;
+        for (Question.MultipleChoice choice : qq_data) {
+            if (choice.isSelected()) {
+                at_leaset_one_checked = true;
                 selected.add(choice);
             }
         }
@@ -92,31 +92,32 @@ public class FragmentCheckboxes extends Fragment {
 
         textview_q_title.setText(q_data != null ? q_data.getQuestionTitle() : "");
 
-        if (q_data.getRequired()) {
-            button_continue.setVisibility(View.GONE);
-        }
+
 
         qq_data = q_data.getChoices();
         if (q_data.getRandomChoices()) {
             Collections.shuffle(qq_data);
         }
-
-        for (final Question.MultipleChoice choice : qq_data) {
-            CheckBox cb = new CheckBox(mContext);
-            cb.setText(Html.fromHtml(choice.getValueChoice()));
-            cb.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
-            cb.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-            linearLayout_checkboxes.addView(cb);
-            allCb.add(cb);
-
-            cb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-                @Override
-                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                    choice.setSelected(isChecked);
-                    collect_data(choice);
-                }
-            });
+        if (q_data.getRequired() && qq_data != null) {
+            button_continue.setVisibility(View.GONE);
         }
+        if (qq_data != null)
+            for (final Question.MultipleChoice choice : qq_data) {
+                CheckBox cb = new CheckBox(mContext);
+                cb.setText(Html.fromHtml(choice.getValueChoice()));
+                cb.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+                cb.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                linearLayout_checkboxes.addView(cb);
+                allCb.add(cb);
+
+                cb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                        choice.setSelected(isChecked);
+                        collect_data(choice);
+                    }
+                });
+            }
         getActivity().getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         final InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);

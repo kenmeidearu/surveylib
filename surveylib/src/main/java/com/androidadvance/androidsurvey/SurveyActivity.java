@@ -87,7 +87,7 @@ public class SurveyActivity extends AppCompatActivity {
             //- FILL -
             for (Question mQuestion : mSurvey.getQuestions()) {
 
-                if (mQuestion.getQuestionType().equals("String")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("String")) {
                     FragmentTextSimple frag = new FragmentTextSimple();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -96,7 +96,7 @@ public class SurveyActivity extends AppCompatActivity {
                     arraylist_fragments.add(frag);
                 }
 
-                if (mQuestion.getQuestionType().equals("Checkboxes")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("Checkboxes")) {
                     FragmentCheckboxes frag = new FragmentCheckboxes();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -105,7 +105,7 @@ public class SurveyActivity extends AppCompatActivity {
                     arraylist_fragments.add(frag);
                 }
 
-                if (mQuestion.getQuestionType().equals("Radioboxes")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("Radioboxes")) {
                     FragmentRadioboxes frag = new FragmentRadioboxes();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -114,7 +114,7 @@ public class SurveyActivity extends AppCompatActivity {
                     arraylist_fragments.add(frag);
                 }
 
-                if (mQuestion.getQuestionType().equals("Number")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("Number")) {
                     FragmentNumber frag = new FragmentNumber();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -123,7 +123,7 @@ public class SurveyActivity extends AppCompatActivity {
                     arraylist_fragments.add(frag);
                 }
 
-                if (mQuestion.getQuestionType().equals("StringMultiline")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("StringMultiline")) {
                     FragmentMultiline frag = new FragmentMultiline();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -166,7 +166,7 @@ public class SurveyActivity extends AppCompatActivity {
             //- FILL -
             for (Question mQuestion : mSurveyPojo.getQuestions()) {
 
-                if (mQuestion.getQuestionType().equals("String")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("String")) {
                     FragmentTextSimple frag = new FragmentTextSimple();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -175,7 +175,7 @@ public class SurveyActivity extends AppCompatActivity {
                     arraylist_fragments.add(frag);
                 }
 
-                if (mQuestion.getQuestionType().equals("Checkboxes")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("Checkboxes")) {
                     FragmentCheckboxes frag = new FragmentCheckboxes();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -184,7 +184,7 @@ public class SurveyActivity extends AppCompatActivity {
                     arraylist_fragments.add(frag);
                 }
 
-                if (mQuestion.getQuestionType().equals("Radioboxes")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("Radioboxes")) {
                     FragmentRadioboxes frag = new FragmentRadioboxes();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -193,7 +193,7 @@ public class SurveyActivity extends AppCompatActivity {
                     arraylist_fragments.add(frag);
                 }
 
-                if (mQuestion.getQuestionType().equals("Number")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("Number")) {
                     FragmentNumber frag = new FragmentNumber();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);
@@ -202,7 +202,7 @@ public class SurveyActivity extends AppCompatActivity {
                     arraylist_fragments.add(frag);
                 }
 
-                if (mQuestion.getQuestionType().equals("StringMultiline")) {
+                if (mQuestion.getQuestionType().equalsIgnoreCase("StringMultiline")) {
                     FragmentMultiline frag = new FragmentMultiline();
                     Bundle xBundle = new Bundle();
                     xBundle.putSerializable("data", mQuestion);

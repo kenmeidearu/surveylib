@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/fragment_text_simple.xml",
-        "source": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/src/main/res/layout/fragment_text_simple.xml"
-    },
-    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/fragment_text_simple.xml",
+        "source": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/src/main/res/layout/fragment_text_simple.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
@@ -64,12 +64,12 @@
         "source": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/src/main/res/layout/fragment_personal.xml"
     },
     {
-        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/fragment_checkboxes.xml",
-        "source": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/src/main/res/layout/fragment_checkboxes.xml"
-    },
-    {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/fragment_checkboxes.xml",
+        "source": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/src/main/res/layout/fragment_checkboxes.xml"
     },
     {
         "merged": "/Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
