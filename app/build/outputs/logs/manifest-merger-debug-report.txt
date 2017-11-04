@@ -1,42 +1,77 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [:surveylib] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/44c501b6cade8fe9300f178515d8dac1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/f72220a674dc11179dc83709ec8468cd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/c2dbd486b65ff4daaaa5b4ce277b3c46/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/4c697b57c49ac191bb0d7b7ce667df38/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2c6c4423df3736ba37fcccf24d7d3e86/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/7e0e7605802f5fc7d4b463a6e6915d3b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/7dab816fb7839e9262886491431f2863/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4484a79556a9907660ac67e7e26094ed/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/aa6cdca9d14677bb9da9989c01490e70/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/895b35008439d9d4865cf772083a4832/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/d4374101169fcf785074b798ccb4e775/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:3:5-54
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:2:11-69
-	android:versionCode
-		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:5:5-26:19
-MERGED from [surveylib:surveylib:unspecified] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/bundles/default/AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/kenjinsan/.android/build-cache/ec8070e3cc0054af79bd6291ba8699cdada0ab35/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/kenjinsan/.android/build-cache/4c965d42eb6f93d213383ad2777617e8b082367e/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/kenjinsan/.android/build-cache/310da6aea16755bc556d4a13c4997ac5a2bbebd1/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kenjinsan/.android/build-cache/e207b4065f249e458f8e75f9b186a97ab17090a6/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kenjinsan/.android/build-cache/7ead2fdaef89f623dabb59b1a299e259b16e515e/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kenjinsan/.android/build-cache/8298ff7264fc715005561d314bbdd2d1cf106f02/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/kenjinsan/.android/build-cache/5a4f66291cb5285019fe561a6310a6c9f99c3924/output/AndroidManifest.xml:29:5-20
-	android:label
-		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:9:9-41
+MERGED from [:surveylib] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [:surveylib] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/44c501b6cade8fe9300f178515d8dac1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/44c501b6cade8fe9300f178515d8dac1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/f72220a674dc11179dc83709ec8468cd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/f72220a674dc11179dc83709ec8468cd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/c2dbd486b65ff4daaaa5b4ce277b3c46/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/c2dbd486b65ff4daaaa5b4ce277b3c46/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/4c697b57c49ac191bb0d7b7ce667df38/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/4c697b57c49ac191bb0d7b7ce667df38/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2c6c4423df3736ba37fcccf24d7d3e86/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2c6c4423df3736ba37fcccf24d7d3e86/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/7e0e7605802f5fc7d4b463a6e6915d3b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/7e0e7605802f5fc7d4b463a6e6915d3b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/7dab816fb7839e9262886491431f2863/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/7dab816fb7839e9262886491431f2863/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4484a79556a9907660ac67e7e26094ed/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4484a79556a9907660ac67e7e26094ed/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/aa6cdca9d14677bb9da9989c01490e70/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/aa6cdca9d14677bb9da9989c01490e70/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/895b35008439d9d4865cf772083a4832/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/895b35008439d9d4865cf772083a4832/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/d4374101169fcf785074b798ccb4e775/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/d4374101169fcf785074b798ccb4e775/AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
 		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:9:9-41
 	android:configChanges
 		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:7:9-118
-	android:allowBackup
-		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
 		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:11:9-40
 activity#androidadvance.com.androidsurveyexample.MainActivity
@@ -63,41 +98,71 @@ ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/Andr
 		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml:21:13-75
 uses-sdk
 INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [surveylib:surveylib:unspecified] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kenjinsan/.android/build-cache/02b236afee6c4f2fdfa2e4eb581611d53c3fe219/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /Users/kenjinsan/.android/build-cache/ec8070e3cc0054af79bd6291ba8699cdada0ab35/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /Users/kenjinsan/.android/build-cache/4c965d42eb6f93d213383ad2777617e8b082367e/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/kenjinsan/.android/build-cache/310da6aea16755bc556d4a13c4997ac5a2bbebd1/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kenjinsan/.android/build-cache/e207b4065f249e458f8e75f9b186a97ab17090a6/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kenjinsan/.android/build-cache/7ead2fdaef89f623dabb59b1a299e259b16e515e/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kenjinsan/.android/build-cache/8298ff7264fc715005561d314bbdd2d1cf106f02/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/kenjinsan/.android/build-cache/5a4f66291cb5285019fe561a6310a6c9f99c3924/output/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
+MERGED from [:surveylib] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:surveylib] /Users/kenjinsan/Documents/AndroidProject/surveylib/surveylib/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/44c501b6cade8fe9300f178515d8dac1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/44c501b6cade8fe9300f178515d8dac1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/f72220a674dc11179dc83709ec8468cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/f72220a674dc11179dc83709ec8468cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/c2dbd486b65ff4daaaa5b4ce277b3c46/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/c2dbd486b65ff4daaaa5b4ce277b3c46/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/4c697b57c49ac191bb0d7b7ce667df38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/4c697b57c49ac191bb0d7b7ce667df38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2c6c4423df3736ba37fcccf24d7d3e86/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2c6c4423df3736ba37fcccf24d7d3e86/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/7e0e7605802f5fc7d4b463a6e6915d3b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/7e0e7605802f5fc7d4b463a6e6915d3b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/7dab816fb7839e9262886491431f2863/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/7dab816fb7839e9262886491431f2863/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4484a79556a9907660ac67e7e26094ed/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4484a79556a9907660ac67e7e26094ed/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/aa6cdca9d14677bb9da9989c01490e70/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/aa6cdca9d14677bb9da9989c01490e70/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/895b35008439d9d4865cf772083a4832/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/895b35008439d9d4865cf772083a4832/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/d4374101169fcf785074b798ccb4e775/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/d4374101169fcf785074b798ccb4e775/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
+		ADDED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kenjinsan/Documents/AndroidProject/surveylib/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kenjinsan/.android/build-cache/50dfe910cce5daabd3a65647ec2101cb1fbf4e1d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/b9f20f6f03063642451bd12def713b38c7e1540b/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kenjinsan/.android/build-cache/8509ef9a00a08a355c620f9ab3b04a6833573f87/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kenjinsan/.android/build-cache/02b236afee6c4f2fdfa2e4eb581611d53c3fe219/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/kenjinsan/.android/build-cache/ec8070e3cc0054af79bd6291ba8699cdada0ab35/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/kenjinsan/.android/build-cache/4c965d42eb6f93d213383ad2777617e8b082367e/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/kenjinsan/.android/build-cache/310da6aea16755bc556d4a13c4997ac5a2bbebd1/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kenjinsan/.android/build-cache/e207b4065f249e458f8e75f9b186a97ab17090a6/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kenjinsan/.android/build-cache/7ead2fdaef89f623dabb59b1a299e259b16e515e/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kenjinsan/.android/build-cache/8298ff7264fc715005561d314bbdd2d1cf106f02/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/kenjinsan/.android/build-cache/5a4f66291cb5285019fe561a6310a6c9f99c3924/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/44c501b6cade8fe9300f178515d8dac1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/44c501b6cade8fe9300f178515d8dac1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/f72220a674dc11179dc83709ec8468cd/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/f72220a674dc11179dc83709ec8468cd/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/c2dbd486b65ff4daaaa5b4ce277b3c46/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/c2dbd486b65ff4daaaa5b4ce277b3c46/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/4c697b57c49ac191bb0d7b7ce667df38/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/4c697b57c49ac191bb0d7b7ce667df38/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2c6c4423df3736ba37fcccf24d7d3e86/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/2c6c4423df3736ba37fcccf24d7d3e86/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/7e0e7605802f5fc7d4b463a6e6915d3b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/7e0e7605802f5fc7d4b463a6e6915d3b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/7dab816fb7839e9262886491431f2863/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/7dab816fb7839e9262886491431f2863/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4484a79556a9907660ac67e7e26094ed/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4484a79556a9907660ac67e7e26094ed/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/aa6cdca9d14677bb9da9989c01490e70/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/aa6cdca9d14677bb9da9989c01490e70/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/895b35008439d9d4865cf772083a4832/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/895b35008439d9d4865cf772083a4832/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/d4374101169fcf785074b798ccb4e775/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/d4374101169fcf785074b798ccb4e775/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /Users/kenjinsan/.android/build-cache/f2b2aedd4feae9118eaf658ae51313c4431e0f4a/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.4.0] /Users/kenjinsan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/45e19ad67b9c660f24482639ee6e4716/AndroidManifest.xml:27:13-51
